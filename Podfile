@@ -8,5 +8,5 @@ pre_install do |pre_i|
 end
 
 target 'MPTracker' do
-	pod 'MPGoogleAnalytics'
+	pod 'MPGoogleAnalytics', '0.2.0'
 end

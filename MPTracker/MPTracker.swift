@@ -43,7 +43,7 @@ public class MPTracker {
         
     }
     
-    class func trackEvent(mpDelegate: MPTrackerDelegate!, flavor: Flavor!, screen: String! = "NO_SCREEN", action: String!, result: String?){
+    public class func trackEvent(mpDelegate: MPTrackerDelegate!, flavor: Flavor!, screen: String! = "NO_SCREEN", action: String!, result: String?){
         if (!initialized){
             self.initialize(mpDelegate, flavor: flavor)
         }
@@ -51,7 +51,7 @@ public class MPTracker {
     }
     
     
-    class func trackPaymentEvent(mpDelegate: MPTrackerDelegate!, paymentInformer: MPPaymentTrackInformer, flavor: Flavor!, screen: String! = "NO_SCREEN", action: String!, result: String?){
+    public class func trackPaymentEvent(mpDelegate: MPTrackerDelegate!, paymentInformer: MPPaymentTrackInformer, flavor: Flavor!, screen: String! = "NO_SCREEN", action: String!, result: String?){
         if (!initialized){
             self.initialize(mpDelegate, flavor: flavor)
         }

@@ -16,7 +16,6 @@
 		157AE05F1CE280C200CEF7E0 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		157AE0601CE280C200CEF7E0 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		15A761D01CE12974008F87A6 /* GATracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761CF1CE12974008F87A6 /* GATracker.swift */; };
-		15A761D21CE12BF4008F87A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15A761D11CE12BF4008F87A6 /* GoogleService-Info.plist */; };
 		15A761D61CE21CD6008F87A6 /* PaymentTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761D51CE21CD6008F87A6 /* PaymentTrackInfo.swift */; };
 		15A761D81CE22184008F87A6 /* FlowTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761D71CE22184008F87A6 /* FlowTrackInfo.swift */; };
 		15C527C01CE10A9E00D113F6 /* MPTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C527BF1CE10A9E00D113F6 /* MPTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,7 +31,6 @@
 		0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Pods/MPGoogleAnalytics/MPGoogleAnalytics/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		15A761CF1CE12974008F87A6 /* GATracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GATracker.swift; sourceTree = "<group>"; };
-		15A761D11CE12BF4008F87A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		15A761D51CE21CD6008F87A6 /* PaymentTrackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTrackInfo.swift; sourceTree = "<group>"; };
 		15A761D71CE22184008F87A6 /* FlowTrackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowTrackInfo.swift; sourceTree = "<group>"; };
 		15C527BC1CE10A9E00D113F6 /* MPTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +93,6 @@
 			children = (
 				15C527C71CE10AA700D113F6 /* Track */,
 				15C527BF1CE10A9E00D113F6 /* MPTracker.h */,
-				15A761D11CE12BF4008F87A6 /* GoogleService-Info.plist */,
 				15C527C11CE10A9E00D113F6 /* Info.plist */,
 			);
 			path = MPTracker;
@@ -206,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				157AE0601CE280C200CEF7E0 /* (null) in Resources */,
-				15A761D21CE12BF4008F87A6 /* GoogleService-Info.plist in Resources */,
 				157AE05F1CE280C200CEF7E0 /* (null) in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

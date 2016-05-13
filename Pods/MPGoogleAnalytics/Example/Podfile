@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MPGoogleAnalytics_Tests' do
+  pod 'MPGoogleAnalytics', :path => '../'
+  
+  
+end

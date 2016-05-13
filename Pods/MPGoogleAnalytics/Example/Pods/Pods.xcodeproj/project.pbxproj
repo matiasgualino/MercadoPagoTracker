@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F9F89C21CE3CA430053AABC /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89B71CE3CA430053AABC /* GAI.h */; };
+		0F9F89C31CE3CA430053AABC /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89B81CE3CA430053AABC /* GAIDictionaryBuilder.h */; };
+		0F9F89C41CE3CA430053AABC /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89B91CE3CA430053AABC /* GAIEcommerceFields.h */; };
+		0F9F89C51CE3CA430053AABC /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89BA1CE3CA430053AABC /* GAIEcommerceProduct.h */; };
+		0F9F89C61CE3CA430053AABC /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89BB1CE3CA430053AABC /* GAIEcommerceProductAction.h */; };
+		0F9F89C71CE3CA430053AABC /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89BC1CE3CA430053AABC /* GAIEcommercePromotion.h */; };
+		0F9F89C81CE3CA430053AABC /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89BD1CE3CA430053AABC /* GAIFields.h */; };
+		0F9F89C91CE3CA430053AABC /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89BE1CE3CA430053AABC /* GAILogger.h */; };
+		0F9F89CA1CE3CA430053AABC /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89BF1CE3CA430053AABC /* GAITrackedViewController.h */; };
+		0F9F89CB1CE3CA430053AABC /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89C01CE3CA430053AABC /* GAITracker.h */; };
+		0F9F89CC1CE3CA430053AABC /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F89C11CE3CA430053AABC /* libGoogleAnalyticsServices.a */; };
+		0F9F8A0F1CE559A60053AABC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A0E1CE559A60053AABC /* SystemConfiguration.framework */; };
+		0F9F8A111CE559AC0053AABC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A101CE559AC0053AABC /* CoreData.framework */; };
+		0F9F8A131CE559B50053AABC /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A121CE559B50053AABC /* libz.1.2.5.tbd */; };
+		0F9F8A151CE559C10053AABC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A141CE559C10053AABC /* libsqlite3.0.tbd */; };
+		113E9A2CE5E79F3A3691F0A504E7A90F /* Pods-MPGoogleAnalytics_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DCD9B2B89B52177E5C2DC7B79A1D1 /* Pods-MPGoogleAnalytics_Tests-dummy.m */; };
+		1F421DC7E12A22F03597663FA501F078 /* MPGoogleAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C91FA5E68BBCB42A89BC56F7D953055 /* MPGoogleAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D20213E4437ECD76A3FD4029C6EB264 /* MPGoogleAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB86B57C8F562B2CBF19F07900338D /* MPGoogleAnalytics-dummy.m */; };
+		AA2AB4F33FB7FAD450021F7BBF907138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E24064CDF43F67D5A761CE1B85A18146 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E8A690EC67503569A0FE954BFD761F53 /* Pods-MPGoogleAnalytics_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD86D7CF3C79DDC7B444874CB48CC6B7 /* Pods-MPGoogleAnalytics_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		142CC52829BD91313D0ADCEC9DCF4E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93223637842A5F675F3598D18D608FA8;
+			remoteInfo = MPGoogleAnalytics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F9F89B71CE3CA430053AABC /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		0F9F89B81CE3CA430053AABC /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		0F9F89B91CE3CA430053AABC /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		0F9F89BA1CE3CA430053AABC /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		0F9F89BB1CE3CA430053AABC /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		0F9F89BC1CE3CA430053AABC /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		0F9F89BD1CE3CA430053AABC /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		0F9F89BE1CE3CA430053AABC /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		0F9F89BF1CE3CA430053AABC /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		0F9F89C01CE3CA430053AABC /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		0F9F89C11CE3CA430053AABC /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		0F9F8A0E1CE559A60053AABC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0F9F8A101CE559AC0053AABC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0F9F8A121CE559B50053AABC /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		0F9F8A141CE559C10053AABC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		137A0052C860D093DED40099D1709E89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D82D570CB279F079619F67A803A10C /* MPGoogleAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPGoogleAnalytics-prefix.pch"; sourceTree = "<group>"; };
+		6327CDA422EE62B377F90929D368A2D0 /* Pods-MPGoogleAnalytics_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPGoogleAnalytics_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6C5F0E5161BD488D60BF2B397EA1511E /* MPGoogleAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPGoogleAnalytics.xcconfig; sourceTree = "<group>"; };
+		6C91FA5E68BBCB42A89BC56F7D953055 /* MPGoogleAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPGoogleAnalytics-umbrella.h"; sourceTree = "<group>"; };
+		8D427DA95060BB720467504DB0D8FCFD /* Pods-MPGoogleAnalytics_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MPGoogleAnalytics_Tests.modulemap"; sourceTree = "<group>"; };
+		91CCED9AAB1A8AB8145FB5519E5C4EB6 /* Pods_MPGoogleAnalytics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPGoogleAnalytics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974F01FDFD0D9FFCC0A3B3D380852756 /* Pods-MPGoogleAnalytics_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPGoogleAnalytics_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B66254D61254E7F64B694DE89EC8FEC /* Pods-MPGoogleAnalytics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPGoogleAnalytics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0397C7FB6542C5DA68D2A01D0742BA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB443FFCDFC292921E73AEC4129F015A /* Pods-MPGoogleAnalytics_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPGoogleAnalytics_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5DB86B57C8F562B2CBF19F07900338D /* MPGoogleAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPGoogleAnalytics-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD86D7CF3C79DDC7B444874CB48CC6B7 /* Pods-MPGoogleAnalytics_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPGoogleAnalytics_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E11DCD9B2B89B52177E5C2DC7B79A1D1 /* Pods-MPGoogleAnalytics_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPGoogleAnalytics_Tests-dummy.m"; sourceTree = "<group>"; };
+		E4D4E51429ABC1DB882AE45C0080B347 /* MPGoogleAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MPGoogleAnalytics.modulemap; sourceTree = "<group>"; };
+		E824346B80ABB843778F174C46D76DF5 /* Pods-MPGoogleAnalytics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPGoogleAnalytics_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F3A21364F31E3C21548E75E58DBCC939 /* Pods-MPGoogleAnalytics_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPGoogleAnalytics_Tests-resources.sh"; sourceTree = "<group>"; };
+		FF13079899CCF762F4846842DA164050 /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPGoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11DEC79DECD24873891B8F30CBBA5CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9F8A151CE559C10053AABC /* libsqlite3.0.tbd in Frameworks */,
+				0F9F8A131CE559B50053AABC /* libz.1.2.5.tbd in Frameworks */,
+				0F9F8A111CE559AC0053AABC /* CoreData.framework in Frameworks */,
+				0F9F8A0F1CE559A60053AABC /* SystemConfiguration.framework in Frameworks */,
+				E24064CDF43F67D5A761CE1B85A18146 /* Foundation.framework in Frameworks */,
+				0F9F89CC1CE3CA430053AABC /* libGoogleAnalyticsServices.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D9FC853F83D219D36E2C3CFFE410BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2AB4F33FB7FAD450021F7BBF907138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F85C58BADD07E743F4CD011AE2CA0A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F9F89B71CE3CA430053AABC /* GAI.h */,
+				0F9F89B81CE3CA430053AABC /* GAIDictionaryBuilder.h */,
+				0F9F89B91CE3CA430053AABC /* GAIEcommerceFields.h */,
+				0F9F89BA1CE3CA430053AABC /* GAIEcommerceProduct.h */,
+				0F9F89BB1CE3CA430053AABC /* GAIEcommerceProductAction.h */,
+				0F9F89BC1CE3CA430053AABC /* GAIEcommercePromotion.h */,
+				0F9F89BD1CE3CA430053AABC /* GAIFields.h */,
+				0F9F89BE1CE3CA430053AABC /* GAILogger.h */,
+				0F9F89BF1CE3CA430053AABC /* GAITrackedViewController.h */,
+				0F9F89C01CE3CA430053AABC /* GAITracker.h */,
+				0F9F89C11CE3CA430053AABC /* libGoogleAnalyticsServices.a */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		30C0FC37E27FC22C1F20D60C4991A6B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5491A8AA7244C47EC79AB20F31C4072 /* Pods-MPGoogleAnalytics_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4C978D23908F54FD18A0E852CAF69E65 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D919EFFB37E1D05A4D112681C16A1 /* MPGoogleAnalytics */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5508E8CE5E8A08A2821ABFDEBD95EDA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF13079899CCF762F4846842DA164050 /* MPGoogleAnalytics.framework */,
+				91CCED9AAB1A8AB8145FB5519E5C4EB6 /* Pods_MPGoogleAnalytics_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77BAAA64887517EEEA70AD3F1CCF42FF /* MPGoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				09F85C58BADD07E743F4CD011AE2CA0A /* Classes */,
+			);
+			path = MPGoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4C978D23908F54FD18A0E852CAF69E65 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5508E8CE5E8A08A2821ABFDEBD95EDA0 /* Products */,
+				30C0FC37E27FC22C1F20D60C4991A6B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C358160A371B16A899F2EF686E21CEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				137A0052C860D093DED40099D1709E89 /* Info.plist */,
+				E4D4E51429ABC1DB882AE45C0080B347 /* MPGoogleAnalytics.modulemap */,
+				6C5F0E5161BD488D60BF2B397EA1511E /* MPGoogleAnalytics.xcconfig */,
+				C5DB86B57C8F562B2CBF19F07900338D /* MPGoogleAnalytics-dummy.m */,
+				61D82D570CB279F079619F67A803A10C /* MPGoogleAnalytics-prefix.pch */,
+				6C91FA5E68BBCB42A89BC56F7D953055 /* MPGoogleAnalytics-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MPGoogleAnalytics";
+			sourceTree = "<group>";
+		};
+		A5491A8AA7244C47EC79AB20F31C4072 /* Pods-MPGoogleAnalytics_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0397C7FB6542C5DA68D2A01D0742BA0 /* Info.plist */,
+				8D427DA95060BB720467504DB0D8FCFD /* Pods-MPGoogleAnalytics_Tests.modulemap */,
+				974F01FDFD0D9FFCC0A3B3D380852756 /* Pods-MPGoogleAnalytics_Tests-acknowledgements.markdown */,
+				BB443FFCDFC292921E73AEC4129F015A /* Pods-MPGoogleAnalytics_Tests-acknowledgements.plist */,
+				E11DCD9B2B89B52177E5C2DC7B79A1D1 /* Pods-MPGoogleAnalytics_Tests-dummy.m */,
+				6327CDA422EE62B377F90929D368A2D0 /* Pods-MPGoogleAnalytics_Tests-frameworks.sh */,
+				F3A21364F31E3C21548E75E58DBCC939 /* Pods-MPGoogleAnalytics_Tests-resources.sh */,
+				DD86D7CF3C79DDC7B444874CB48CC6B7 /* Pods-MPGoogleAnalytics_Tests-umbrella.h */,
+				9B66254D61254E7F64B694DE89EC8FEC /* Pods-MPGoogleAnalytics_Tests.debug.xcconfig */,
+				E824346B80ABB843778F174C46D76DF5 /* Pods-MPGoogleAnalytics_Tests.release.xcconfig */,
+			);
+			name = "Pods-MPGoogleAnalytics_Tests";
+			path = "Target Support Files/Pods-MPGoogleAnalytics_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F9F8A141CE559C10053AABC /* libsqlite3.0.tbd */,
+				0F9F8A121CE559B50053AABC /* libz.1.2.5.tbd */,
+				0F9F8A101CE559AC0053AABC /* CoreData.framework */,
+				0F9F8A0E1CE559A60053AABC /* SystemConfiguration.framework */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC2D919EFFB37E1D05A4D112681C16A1 /* MPGoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				77BAAA64887517EEEA70AD3F1CCF42FF /* MPGoogleAnalytics */,
+				8C358160A371B16A899F2EF686E21CEA /* Support Files */,
+			);
+			name = MPGoogleAnalytics;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21C1A7C6ACAAEAAB74570ECF9E5EEBE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A690EC67503569A0FE954BFD761F53 /* Pods-MPGoogleAnalytics_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA86D09C153163848216EFA9F9666E24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9F89C31CE3CA430053AABC /* GAIDictionaryBuilder.h in Headers */,
+				0F9F89C81CE3CA430053AABC /* GAIFields.h in Headers */,
+				0F9F89C21CE3CA430053AABC /* GAI.h in Headers */,
+				0F9F89C41CE3CA430053AABC /* GAIEcommerceFields.h in Headers */,
+				0F9F89CA1CE3CA430053AABC /* GAITrackedViewController.h in Headers */,
+				0F9F89C91CE3CA430053AABC /* GAILogger.h in Headers */,
+				0F9F89CB1CE3CA430053AABC /* GAITracker.h in Headers */,
+				0F9F89C51CE3CA430053AABC /* GAIEcommerceProduct.h in Headers */,
+				1F421DC7E12A22F03597663FA501F078 /* MPGoogleAnalytics-umbrella.h in Headers */,
+				0F9F89C71CE3CA430053AABC /* GAIEcommercePromotion.h in Headers */,
+				0F9F89C61CE3CA430053AABC /* GAIEcommerceProductAction.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89178773B5E9F70A35ED9B034E813777 /* Pods-MPGoogleAnalytics_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B42D7B0E8561F21A61EB7BCDE753C34 /* Build configuration list for PBXNativeTarget "Pods-MPGoogleAnalytics_Tests" */;
+			buildPhases = (
+				B608EA27210475049BC96C3560233DA3 /* Sources */,
+				C9D9FC853F83D219D36E2C3CFFE410BA /* Frameworks */,
+				21C1A7C6ACAAEAAB74570ECF9E5EEBE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7449948CF128A27F66D858193F00E004 /* PBXTargetDependency */,
+			);
+			name = "Pods-MPGoogleAnalytics_Tests";
+			productName = "Pods-MPGoogleAnalytics_Tests";
+			productReference = 91CCED9AAB1A8AB8145FB5519E5C4EB6 /* Pods_MPGoogleAnalytics_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93223637842A5F675F3598D18D608FA8 /* MPGoogleAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580EB78E5C31F63869D65B516F8EE4E4 /* Build configuration list for PBXNativeTarget "MPGoogleAnalytics" */;
+			buildPhases = (
+				451635ED9211F9DF52F75E8EA7F060B9 /* Sources */,
+				11DEC79DECD24873891B8F30CBBA5CD3 /* Frameworks */,
+				DA86D09C153163848216EFA9F9666E24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPGoogleAnalytics;
+			productName = MPGoogleAnalytics;
+			productReference = FF13079899CCF762F4846842DA164050 /* MPGoogleAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5508E8CE5E8A08A2821ABFDEBD95EDA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93223637842A5F675F3598D18D608FA8 /* MPGoogleAnalytics */,
+				89178773B5E9F70A35ED9B034E813777 /* Pods-MPGoogleAnalytics_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		451635ED9211F9DF52F75E8EA7F060B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D20213E4437ECD76A3FD4029C6EB264 /* MPGoogleAnalytics-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B608EA27210475049BC96C3560233DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113E9A2CE5E79F3A3691F0A504E7A90F /* Pods-MPGoogleAnalytics_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7449948CF128A27F66D858193F00E004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPGoogleAnalytics;
+			target = 93223637842A5F675F3598D18D608FA8 /* MPGoogleAnalytics */;
+			targetProxy = 142CC52829BD91313D0ADCEC9DCF4E4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51BE5BB4E4980160BB446F098C769B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E824346B80ABB843778F174C46D76DF5 /* Pods-MPGoogleAnalytics_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPGoogleAnalytics_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPGoogleAnalytics_Tests/Pods-MPGoogleAnalytics_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPGoogleAnalytics_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F38C38C22C5A02FFE7A9E985F249EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B66254D61254E7F64B694DE89EC8FEC /* Pods-MPGoogleAnalytics_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPGoogleAnalytics_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPGoogleAnalytics_Tests/Pods-MPGoogleAnalytics_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPGoogleAnalytics_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DE5421B609E60B5EDF2A5978A128B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5F0E5161BD488D60BF2B397EA1511E /* MPGoogleAnalytics.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../MPGoogleAnalytics/Classes\"/**",
+					"$(SRCROOT)/**",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPGoogleAnalytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../MPGoogleAnalytics/Classes\"/**",
+					"$(SRCROOT)/**",
+				);
+				MODULEMAP_FILE = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MPGoogleAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCD4A01CCC61A84904F79EDD0392F718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5F0E5161BD488D60BF2B397EA1511E /* MPGoogleAnalytics.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../MPGoogleAnalytics/Classes\"/**",
+					"$(SRCROOT)/**",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPGoogleAnalytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../MPGoogleAnalytics/Classes\"/**",
+					"$(SRCROOT)/**",
+				);
+				MODULEMAP_FILE = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MPGoogleAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580EB78E5C31F63869D65B516F8EE4E4 /* Build configuration list for PBXNativeTarget "MPGoogleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE5421B609E60B5EDF2A5978A128B9A /* Debug */,
+				BCD4A01CCC61A84904F79EDD0392F718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B42D7B0E8561F21A61EB7BCDE753C34 /* Build configuration list for PBXNativeTarget "Pods-MPGoogleAnalytics_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F38C38C22C5A02FFE7A9E985F249EEE /* Debug */,
+				51BE5BB4E4980160BB446F098C769B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "MPTracker"
-  s.version          = "0.2.0"
+  s.name             = "MercadoPagoTracker"
+  s.version          = "0.3.0"
   s.summary          = "A MercadoPago Tracker SDK."
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'MPTracker/**'
 
   s.frameworks = 'UIKit', 'CoreData', 'SystemConfiguration', 'Foundation', 'MPGoogleAnalytics'
-  
+
   s.dependency 'MPGoogleAnalytics'
 
   s.library = 'z', 'sqlite3'

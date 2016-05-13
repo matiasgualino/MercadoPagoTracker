@@ -1,0 +1,6 @@
+framework module Pods_MPGoogleAnalytics_Tests {
+  umbrella header "Pods-MPGoogleAnalytics_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

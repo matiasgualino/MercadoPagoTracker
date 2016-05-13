@@ -1,0 +1,16 @@
+PODS:
+  - MPGoogleAnalytics (0.1.0)
+
+DEPENDENCIES:
+  - MPGoogleAnalytics (from `../`)
+
+EXTERNAL SOURCES:
+  MPGoogleAnalytics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MPGoogleAnalytics: 6283e5a0e19ae0f2723c1ad8f0b4e0214266c5a4
+
+PODFILE CHECKSUM: d1de6f20cd611531e2c8ae812a5fae0d03ccc5c1
+
+COCOAPODS: 1.0.0

@@ -21,6 +21,7 @@ public class GATracker: NSObject {
         
         // Optional: configure GAI options.
         let gai = GAI.sharedInstance()
+		gai.trackerWithTrackingId("UA-77498511-1")
         gai.trackUncaughtExceptions = true  // report uncaught exceptions
         gai.logger.logLevel = GAILogLevel.Verbose  // remove before app release
     }
