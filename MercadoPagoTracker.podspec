@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MercadoPagoTracker"
-  s.version          = "0.3.0"
+  s.version          = "0.4.0"
   s.summary          = "A MercadoPago Tracker SDK."
 
 # This description is used to generate tags and improve search results.
@@ -49,7 +49,7 @@ TODO: Add long description of the pod here.
 
   s.xcconfig     = {
 
-    'VALID_ARCHS' => ['armv7', 'armv7s', 'arm64'],
+    'VALID_ARCHS' => armv7 armv7s arm64
 
     'OTHER_LDFLAGS[arch=arm64]'  => other_ldflags,
     'OTHER_LDFLAGS[arch=armv7]'  => other_ldflags,
