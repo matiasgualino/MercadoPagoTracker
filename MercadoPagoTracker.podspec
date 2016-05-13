@@ -49,7 +49,7 @@ TODO: Add long description of the pod here.
 
   s.xcconfig     = {
 
-    'VALID_ARCHS' => armv7 armv7s arm64
+    'VALID_ARCHS' => 'armv7 armv7s arm64',
 
     'OTHER_LDFLAGS[arch=arm64]'  => other_ldflags,
     'OTHER_LDFLAGS[arch=armv7]'  => other_ldflags,
