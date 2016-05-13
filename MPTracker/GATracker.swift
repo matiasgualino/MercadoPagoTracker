@@ -62,8 +62,8 @@ public class GATracker: NSObject {
     internal func trackEvent(category: String!, action: String!, label: String!, value: NSNumber = 0){
         let tracker = GAI.sharedInstance().defaultTracker
         
-        let eventTracker: NSObject = GAIDictionaryBuilder.createEventWithCategory(category, action: action, label: label, value: value)
+        let builder = GAIDictionaryBuilder.createEventWithCategory(category, action: action, label: label, value: value)
         
-        tracker.send(eventTracker as! [NSObject : AnyObject])
+		tracker.send(builder.build() as [NSObject : AnyObject])
     }
 }
