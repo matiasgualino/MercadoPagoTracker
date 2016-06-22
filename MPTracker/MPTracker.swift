@@ -25,7 +25,7 @@ public enum GAKey : String {
 
 public protocol MPTrackerDelegate {
     
-    func flavor() -> String!
+    func flavor() -> Flavor!
     func framework() -> String!
     func sdkVersion() -> String!
     func publicKey() -> String!
@@ -50,7 +50,7 @@ public class MPTracker {
 
     static var initialized : Bool = false
 
-    static var siteGAKey : GAKey
+    static var siteGAKey : GAKey?
     
     static var flavor : Flavor? = nil
     
@@ -79,7 +79,7 @@ public class MPTracker {
     
     public class func trackPaymentOffEvent(paymentId: String!, mpDelegate: MPTrackerDelegate!, paymentInformer: MPPaymentTrackInformer, flavor: Flavor!, screen: String! = "NO_SCREEN", action: String!, result: String?){
         if (!initialized){
-            self.initialize(mpDelegate, flavor: flavor)
+            self.initialize(mpDelegate)
         }
         MPTracker.trackEvent(mpDelegate, action: "", result: "")
         PaymentTracker.trackPaymentOff(paymentId, delegate: mpDelegate)
@@ -103,7 +103,7 @@ public class MPTracker {
     private class func flavorText() -> String{
         
         if (MPTracker.flavor != nil){
-            return "F".append(MPTracker.flavor?.rawValue)
+            return "F" + (MPTracker.flavor?.rawValue)!
         }else{
             return ""
         }

@@ -26,14 +26,13 @@ public class GATracker: NSObject {
             let gai = GAI.sharedInstance()
             gai.trackerWithTrackingId(gaKey.rawValue)
             gai.trackUncaughtExceptions = true  // report uncaught exceptions
-            self.gainitialized = true
+            GATracker.gainitialized = true
          //   gai.logger.logLevel = GAILogLevel.Verbose  // remove before app release
             let tracker = GAI.sharedInstance().defaultTracker
             tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_FLAVOR), value: String(flowInfo.flavor.rawValue))
             tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_FRAMEWORK), value: flowInfo.framework)
             tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_PUBLIC_KEY), value: flowInfo.publicKey)
             tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_SDK_VERSION), value: flowInfo.sdkVersion)
-            tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_SITE), value: flowInfo.site)
         }
         
 
@@ -53,12 +52,12 @@ public class GATracker: NSObject {
         let tracker = GAI.sharedInstance().defaultTracker
         
         let eventTracker: NSObject = GAIDictionaryBuilder.createEventWithCategory(category, action: action, label: label, value: value)
-        eventTracker.setValue(paymentInfo.installments(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_INSTALLMENTS))
-        eventTracker.setValue(paymentInfo.issuerId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_ISSUER_ID))
-        eventTracker.setValue(paymentInfo.methodId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_METHOD_ID))
-        eventTracker.setValue(paymentInfo.status(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_STATUS))
-        eventTracker.setValue(paymentInfo.statusDetail(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_STATUS_DETAIL))
-        eventTracker.setValue(paymentInfo.typeId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_TYPE_ID))
+        eventTracker.setValue(paymentInformer.installments(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_INSTALLMENTS))
+        eventTracker.setValue(paymentInformer.issuerId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_ISSUER_ID))
+        eventTracker.setValue(paymentInformer.methodId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_METHOD_ID))
+        eventTracker.setValue(paymentInformer.status(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_STATUS))
+        eventTracker.setValue(paymentInformer.statusDetail(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_STATUS_DETAIL))
+        eventTracker.setValue(paymentInformer.typeId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_TYPE_ID))
 
          tracker.send(eventTracker as! [NSObject : AnyObject])
     }
