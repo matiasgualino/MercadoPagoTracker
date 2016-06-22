@@ -1,0 +1,15 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/MPGoogleAnalytics
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Public"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/MPGoogleAnalytics/MPGoogleAnalytics/Classes"
+OTHER_LDFLAGS = -l"GoogleAnalyticsServices"
+OTHER_LDFLAGS[arch=arm64] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+OTHER_LDFLAGS[arch=armv7] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+OTHER_LDFLAGS[arch=armv7s] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+OTHER_LDFLAGS[arch=i386] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+OTHER_LDFLAGS[arch=x86_64] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

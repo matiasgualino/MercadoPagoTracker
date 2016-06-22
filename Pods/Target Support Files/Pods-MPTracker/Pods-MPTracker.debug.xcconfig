@@ -1,0 +1,13 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/MPGoogleAnalytics"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/MPGoogleAnalytics/MPGoogleAnalytics.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "MPGoogleAnalytics"
+OTHER_LDFLAGS[arch=arm64] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+OTHER_LDFLAGS[arch=armv7] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+OTHER_LDFLAGS[arch=armv7s] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+OTHER_LDFLAGS[arch=i386] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+OTHER_LDFLAGS[arch=x86_64] = $(inherited) -framework UIKit -framework CoreData -framework SystemConfiguration -framework Foundation -lz -lstdc++
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

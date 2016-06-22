@@ -172,12 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15C527C41CE10A9E00D113F6 /* Build configuration list for PBXNativeTarget "MPTracker" */;
 			buildPhases = (
-				E29B0D7A16BFA1843B0D43AB /* 📦 Check Pods Manifest.lock */,
+				E29B0D7A16BFA1843B0D43AB /* [CP] Check Pods Manifest.lock */,
 				15C527B71CE10A9E00D113F6 /* Sources */,
 				15C527B81CE10A9E00D113F6 /* Frameworks */,
 				15C527B91CE10A9E00D113F6 /* Headers */,
 				15C527BA1CE10A9E00D113F6 /* Resources */,
-				8B22F6B9EB643B94FD97FEBB /* 📦 Copy Pods Resources */,
+				8B22F6B9EB643B94FD97FEBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,14 +232,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8B22F6B9EB643B94FD97FEBB /* 📦 Copy Pods Resources */ = {
+		8B22F6B9EB643B94FD97FEBB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,14 +247,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MPTracker/Pods-MPTracker-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E29B0D7A16BFA1843B0D43AB /* 📦 Check Pods Manifest.lock */ = {
+		E29B0D7A16BFA1843B0D43AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
