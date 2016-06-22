@@ -12,9 +12,9 @@ public class PaymentTrackInfo: NSObject {
    
     static let PAYMENT_STATUS : UInt = 8
     static let PAYMENT_STATUS_DETAIL : UInt = 9
-    static let PAYMENT_TYPE_ID : UInt = 16
-    static let PAYMENT_INSTALLMENTS : UInt = 17
-    static let PAYMENT_ISSUER_ID : UInt = 18
-    static let PAYMENT_METHOD_ID : UInt = 19
+    static let PAYMENT_TYPE_ID : UInt = 10
+    static let PAYMENT_INSTALLMENTS : UInt = 11
+    static let PAYMENT_ISSUER_ID : UInt = 12
+    static let PAYMENT_METHOD_ID : UInt = 13
     
 }
