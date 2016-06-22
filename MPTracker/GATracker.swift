@@ -11,22 +11,32 @@ import UIKit
 public class GATracker: NSObject {
 
     static let sharedInstance = GATracker()
-    
-    
-    private override init(){
+       static var gainitialized : Bool = false
+  /*
+    private override init(gaKey : GAKey!){
         let gai = GAI.sharedInstance()
-		gai.trackerWithTrackingId("UA-46087162-2")
+		gai.trackerWithTrackingId(gaKey.rawValue)
         gai.trackUncaughtExceptions = true  // report uncaught exceptions
         gai.logger.logLevel = GAILogLevel.Verbose  // remove before app release
     }
-    
-    internal func initialized(flowInfo : FlowTrackInfo!){
-        let tracker = GAI.sharedInstance().defaultTracker
-        tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_FLAVOR), value: String(flowInfo.flavor.rawValue))
-        tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_FRAMEWORK), value: flowInfo.framework)
-        tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_PUBLIC_KEY), value: flowInfo.publicKey)
-        tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_SDK_VERSION), value: flowInfo.sdkVersion)
-        tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_SITE), value: flowInfo.site)
+    */
+    internal func initialized(flowInfo : FlowTrackInfo!, gaKey : GAKey!){
+        
+        if (!GATracker.gainitialized){
+            let gai = GAI.sharedInstance()
+            gai.trackerWithTrackingId(gaKey.rawValue)
+            gai.trackUncaughtExceptions = true  // report uncaught exceptions
+            self.gainitialized = true
+         //   gai.logger.logLevel = GAILogLevel.Verbose  // remove before app release
+            let tracker = GAI.sharedInstance().defaultTracker
+            tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_FLAVOR), value: String(flowInfo.flavor.rawValue))
+            tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_FRAMEWORK), value: flowInfo.framework)
+            tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_PUBLIC_KEY), value: flowInfo.publicKey)
+            tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_SDK_VERSION), value: flowInfo.sdkVersion)
+            tracker.set(GAIFields.customDimensionForIndex(FlowTrackInfo.FLOW_SITE), value: flowInfo.site)
+        }
+        
+
 
     }
     
@@ -39,7 +49,7 @@ public class GATracker: NSObject {
     }
     
     
-    internal func trackPaymentEvent(category: String!, action: String!, label: String!, value: NSNumber = 0, paymentInfo : MPPaymentTrackInformer){
+    internal func trackPaymentEvent(category: String!, action: String!, label: String!, value: NSNumber = 0, paymentInformer : MPPaymentTrackInformer){
         let tracker = GAI.sharedInstance().defaultTracker
         
         let eventTracker: NSObject = GAIDictionaryBuilder.createEventWithCategory(category, action: action, label: label, value: value)
