@@ -47,13 +47,6 @@ TODO: Add long description of the pod here.
 
   s.compiler_flags = other_ldflags
 
-  s.xcconfig     = {
 
-  'OTHER_LDFLAGS[arch=arm64]'  => other_ldflags,
-  'OTHER_LDFLAGS[arch=armv7]'  => other_ldflags,
-  'OTHER_LDFLAGS[arch=i386]'  => other_ldflags,
-  'OTHER_LDFLAGS[arch=x86_64]'  => other_ldflags,
-  'OTHER_LDFLAGS[arch=armv7s]' => other_ldflags
-  }
 
 end
