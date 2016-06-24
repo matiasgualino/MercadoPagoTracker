@@ -47,7 +47,7 @@ echo "=========================================="
 echo "3) Create tag for version $VERSION from development"
 echo "=========================================="
 
-git checkout development
+git checkout master
 git tag $VERSION
 git push origin $VERSION
 PUSH_STATUS=$?
