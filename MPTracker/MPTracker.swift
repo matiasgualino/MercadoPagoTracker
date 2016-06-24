@@ -29,7 +29,7 @@ public protocol MPTrackerDelegate {
     func framework() -> String!
     func sdkVersion() -> String!
     func publicKey() -> String!
-    func siteId() -> String!
+    func siteId() -> GAKey!
 
 }
 
@@ -56,7 +56,7 @@ public class MPTracker {
     
     private class func initialize (mpDelegate : MPTrackerDelegate!){
         MPTracker.initialized = true
-        siteGAKey = GAKey(rawValue: mpDelegate.siteId())
+        siteGAKey = mpDelegate.siteId()
         GATracker.sharedInstance.initialized(flowTrackInfo(mpDelegate), gaKey: siteGAKey)
         MPTracker.flavor = mpDelegate.flavor()
     }
