@@ -1,4 +1,5 @@
 #!/bin/bash
+#!/bin/bash
 
 if [ $# -eq 0 ]
   then
@@ -7,7 +8,7 @@ if [ $# -eq 0 ]
 fi
 
 VERSION=$1
-PROJECT="MercadoPagoSDK-BETA"
+PROJECT="MercadoPagoTracker"
 PODSPEC_FILE="$PROJECT.podspec"
 
 if [ "$#" -eq 2 ]

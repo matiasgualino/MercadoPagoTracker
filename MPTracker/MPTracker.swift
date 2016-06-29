@@ -77,7 +77,7 @@ public class MPTracker {
        // PaymentTracker.trackToken(token, delegate: mpDelegate)
     }
     
-    public class func trackPaymentOffEvent(paymentId: String!, mpDelegate: MPTrackerDelegate!, paymentInformer: MPPaymentTrackInformer, flavor: Flavor!, screen: String! = "NO_SCREEN", action: String!, result: String?){
+    public class func trackPaymentOffEvent(paymentId: String!, mpDelegate: MPTrackerDelegate){
         if (!initialized){
             self.initialize(mpDelegate)
         }
