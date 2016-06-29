@@ -34,7 +34,7 @@ public class PaymentTracker: NSObject {
     
     public class func trackPaymentOff(paymentId: String!, delegate : MPTrackerDelegate!){
         
-        let obj:[String:AnyObject] = ["public_key":delegate.publicKey() , "token":paymentId!,"sdk_flavor":(delegate.flavor()?.rawValue)!,"sdk_platform":"iOS","sdk_type":"native","sdk_version":delegate.sdkVersion()]
+        let obj:[String:AnyObject] = ["public_key":delegate.publicKey() , "paymenId":paymentId!,"sdk_flavor":(delegate.flavor()?.rawValue)!,"sdk_platform":"iOS","sdk_type":"native","sdk_version":delegate.sdkVersion()]
         
         self.request(PaymentTracker.MP_TRACK_PAYMENTOFF_URL, params: nil, body: JSON(obj).toString(), method: "POST", headers: nil, success: { (jsonResult) -> Void in
             
