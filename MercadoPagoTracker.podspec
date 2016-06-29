@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MercadoPagoTracker"
-  s.version          = "0.7.6"
+  s.version          = "0.7.8"
   s.summary          = "A MercadoPago Tracker SDK."
 
 # This description is used to generate tags and improve search results.
