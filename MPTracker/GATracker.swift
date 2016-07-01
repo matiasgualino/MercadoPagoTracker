@@ -51,13 +51,13 @@ public class GATracker: NSObject {
     internal func trackPaymentEvent(category: String!, action: String!, label: String!, value: NSNumber = 0, paymentInformer : MPPaymentTrackInformer){
         let tracker = GAI.sharedInstance().defaultTracker
         
-        let eventTracker: NSObject = GAIDictionaryBuilder.createEventWithCategory(category, action: action, label: label, value: value)
-        eventTracker.setValue(paymentInformer.installments(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_INSTALLMENTS))
-        eventTracker.setValue(paymentInformer.issuerId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_ISSUER_ID))
-        eventTracker.setValue(paymentInformer.methodId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_METHOD_ID))
-        eventTracker.setValue(paymentInformer.status(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_STATUS))
-        eventTracker.setValue(paymentInformer.statusDetail(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_STATUS_DETAIL))
-        eventTracker.setValue(paymentInformer.typeId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_TYPE_ID))
+        let eventTracker = GAIDictionaryBuilder.createEventWithCategory(category, action: action, label: label, value: value)
+        eventTracker.set(paymentInformer.installments(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_INSTALLMENTS))
+        eventTracker.set(paymentInformer.issuerId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_ISSUER_ID))
+        eventTracker.set(paymentInformer.methodId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_METHOD_ID))
+        eventTracker.set(paymentInformer.status(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_STATUS))
+        eventTracker.set(paymentInformer.statusDetail(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_STATUS_DETAIL))
+        eventTracker.set(paymentInformer.typeId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_TYPE_ID))
 
          tracker.send(eventTracker as! [NSObject : AnyObject])
     }
