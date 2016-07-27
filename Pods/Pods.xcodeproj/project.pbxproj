@@ -325,10 +325,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2538E1DE91483E1AED0B0238C239097F /* Debug */ = {
+		01BD3C8F1918CA92356A3434B198BE28 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0076926CFD50C377CC0AC5DE80E335A3 /* Pods-MPTracker.debug.xcconfig */;
+			baseConfigurationReference = BDCFE7A7BCD1DC407A7E20729A6B96CE /* MPGoogleAnalytics.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+					x86_64,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -338,18 +343,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MPTracker/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MPGoogleAnalytics/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MPTracker/Pods-MPTracker.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MPTracker;
+				PRODUCT_NAME = MPGoogleAnalytics;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,10 +359,15 @@
 			};
 			name = Debug;
 		};
-		4785364D94B9ADAF353EE915E82FC8DC /* Release */ = {
+		28E7585B2D1E6DA748DA1879AAD1DC7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BDCFE7A7BCD1DC407A7E20729A6B96CE /* MPGoogleAnalytics.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+					x86_64,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -429,42 +435,18 @@
 			};
 			name = Debug;
 		};
-		6E3B04398021DD604F3501BD87FF26A2 /* Debug */ = {
+		62ACB6556F42E32E1AFA05D85B64EB6A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDCFE7A7BCD1DC407A7E20729A6B96CE /* MPGoogleAnalytics.xcconfig */;
+			baseConfigurationReference = 0076926CFD50C377CC0AC5DE80E335A3 /* Pods-MPTracker.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+					x86_64,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MPGoogleAnalytics/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MPGoogleAnalytics;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8C5E91FCA9A9C36A03B79270FF3DB9D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98B0FD6726BD81A1ECB1E174AB984379 /* Pods-MPTracker.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -477,7 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MPTracker/Pods-MPTracker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -489,7 +471,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -529,6 +511,44 @@
 			};
 			name = Release;
 		};
+		F240DBCB17E8BF3A4DB9E70FE016B066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B0FD6726BD81A1ECB1E174AB984379 /* Pods-MPTracker.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+					x86_64,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MPTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MPTracker/Pods-MPTracker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MPTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,8 +564,8 @@
 		9C81348E42522E8CF558C05B14E82F4D /* Build configuration list for PBXNativeTarget "Pods-MPTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2538E1DE91483E1AED0B0238C239097F /* Debug */,
-				8C5E91FCA9A9C36A03B79270FF3DB9D5 /* Release */,
+				62ACB6556F42E32E1AFA05D85B64EB6A /* Debug */,
+				F240DBCB17E8BF3A4DB9E70FE016B066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -553,8 +573,8 @@
 		FBD0FC7FE0A5289F491D136C303BF5DF /* Build configuration list for PBXNativeTarget "MPGoogleAnalytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E3B04398021DD604F3501BD87FF26A2 /* Debug */,
-				4785364D94B9ADAF353EE915E82FC8DC /* Release */,
+				01BD3C8F1918CA92356A3434B198BE28 /* Debug */,
+				28E7585B2D1E6DA748DA1879AAD1DC7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
