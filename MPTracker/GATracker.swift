@@ -59,7 +59,7 @@ public class GATracker: NSObject {
         eventTracker.set(paymentInformer.statusDetail(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_STATUS_DETAIL))
         eventTracker.set(paymentInformer.typeId(), forKey: GAIFields.customDimensionForIndex(PaymentTrackInfo.PAYMENT_TYPE_ID))
 
-         tracker.send(eventTracker.build() as! [NSObject : AnyObject])
+         tracker.send(eventTracker.build() as [NSObject : AnyObject])
     }
     
     internal func trackEvent(category: String!, action: String!, label: String!, value: NSNumber = 0){

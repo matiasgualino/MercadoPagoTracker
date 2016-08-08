@@ -20,6 +20,26 @@ public enum GAKey : String {
     case MLC = "UA-46085697-7"
     case MCO = "UA-46087162-10"
     case MLV = "UA-46090035-10"
+    
+    
+    static func parseToGAKey(gakeyString : String) -> GAKey{
+        switch gakeyString {
+        case "MLA":
+            return GAKey.MLA
+        case "MLB":
+            return GAKey.MLB
+        case "MLM":
+            return GAKey.MLM
+        case "MLC":
+            return GAKey.MLC
+        case "MCO":
+            return GAKey.MCO
+        case "MLV":
+            return GAKey.MLV
+        default:
+            return GAKey.MLA
+        }
+    }
 }
 
 
@@ -29,7 +49,7 @@ public protocol MPTrackerDelegate {
     func framework() -> String!
     func sdkVersion() -> String!
     func publicKey() -> String!
-    func siteId() -> GAKey!
+    func siteId() -> String!
 
 }
 
@@ -56,7 +76,7 @@ public class MPTracker {
     
     private class func initialize (mpDelegate : MPTrackerDelegate!){
         MPTracker.initialized = true
-        siteGAKey = mpDelegate.siteId()
+        siteGAKey = GAKey.parseToGAKey(mpDelegate.siteId())
         GATracker.sharedInstance.initialized(flowTrackInfo(mpDelegate), gaKey: siteGAKey)
         MPTracker.flavor = mpDelegate.flavor()
     }
