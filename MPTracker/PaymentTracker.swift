@@ -43,8 +43,8 @@ public class PaymentTracker: NSObject {
         }
     }
     
-    public class func request(url: String, params: String?, body: AnyObject?, method: String, headers : NSDictionary? = nil,  success: (jsonResult: AnyObject?) -> Void,
-        failure: ((error: NSError) -> Void)?) {
+    public class func request(url: String, params: String?, body: AnyObject?, method: String, headers : NSDictionary? = nil,  success: (AnyObject?) -> Void,
+        failure: ((NSError) -> Void)?) {
             
             var requesturl = url
             if params != nil {
@@ -78,18 +78,18 @@ public class PaymentTracker: NSObject {
                 {
                     let responseJson = try NSJSONSerialization.JSONObjectWithData(data!,
                                                                                   options:NSJSONReadingOptions.AllowFragments)
-                    success(jsonResult: responseJson)
+                    success(responseJson)
                 } catch {
                     
                     let e : NSError = NSError(domain: "com.mercadopago.sdk", code: NSURLErrorCannotDecodeContentData, userInfo: nil)
-                    failure!(error: e)
+                    failure!(e)
                 }
             } else {
                 let response = String(error)
                 print(response)
                 
                 if failure != nil {
-                    failure!(error: error!)
+                    failure!(error!)
                 }
             }
         }
