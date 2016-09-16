@@ -24,8 +24,8 @@ public class GATracker: NSObject {
         
         if (!GATracker.gainitialized){
             let gai = GAI.sharedInstance()
-            gai.trackerWithTrackingId(gaKey.rawValue)
-            gai.trackUncaughtExceptions = true  // report uncaught exceptions
+            gai!.trackerWithTrackingId(gaKey.rawValue)
+            gai!.trackUncaughtExceptions = true  // report uncaught exceptions
             GATracker.gainitialized = true
          //   gai.logger.logLevel = GAILogLevel.Verbose  // remove before app release
             let tracker = GAI.sharedInstance().defaultTracker
