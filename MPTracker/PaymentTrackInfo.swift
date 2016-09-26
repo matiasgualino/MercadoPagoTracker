@@ -8,7 +8,7 @@
 
 
 
-public class PaymentTrackInfo: NSObject {
+open class PaymentTrackInfo: NSObject {
    
     static let PAYMENT_STATUS : UInt = 8
     static let PAYMENT_STATUS_DETAIL : UInt = 9

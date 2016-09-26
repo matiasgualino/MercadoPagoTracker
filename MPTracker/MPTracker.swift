@@ -22,7 +22,7 @@ public enum GAKey : String {
     case MLV = "UA-46090035-10"
     
     
-    static func parseToGAKey(gakeyString : String) -> GAKey{
+    static func parseToGAKey(_ gakeyString : String) -> GAKey{
         switch gakeyString {
         case "MLA":
             return GAKey.MLA
@@ -65,7 +65,7 @@ public protocol MPPaymentTrackInformer {
     
     
 }
-public class MPTracker {
+open class MPTracker {
 
 
     static var initialized : Bool = false
@@ -74,14 +74,14 @@ public class MPTracker {
     
     static var flavor : Flavor? = nil
     
-    private class func initialize (mpDelegate : MPTrackerDelegate!){
+    fileprivate class func initialize (_ mpDelegate : MPTrackerDelegate!){
         MPTracker.initialized = true
         siteGAKey = GAKey.parseToGAKey(mpDelegate.siteId())
         GATracker.sharedInstance.initialized(flowTrackInfo(mpDelegate), gaKey: siteGAKey)
         MPTracker.flavor = mpDelegate.flavor()
     }
     
-    public class func trackEvent(mpDelegate: MPTrackerDelegate!, screen: String! = "NO_SCREEN", action: String!, result: String?){
+    open class func trackEvent(_ mpDelegate: MPTrackerDelegate!, screen: String! = "NO_SCREEN", action: String!, result: String?){
         if (!initialized){
             self.initialize(mpDelegate)
         }
@@ -89,7 +89,7 @@ public class MPTracker {
     }
     
     
-    public class func trackPaymentEvent(token: String!, mpDelegate: MPTrackerDelegate!, paymentInformer: MPPaymentTrackInformer, flavor: Flavor!, screen: String! = "NO_SCREEN", action: String!, result: String?){
+    open class func trackPaymentEvent(_ token: String!, mpDelegate: MPTrackerDelegate!, paymentInformer: MPPaymentTrackInformer, flavor: Flavor!, screen: String! = "NO_SCREEN", action: String!, result: String?){
         if (!initialized){
             self.initialize(mpDelegate)
         }
@@ -97,37 +97,37 @@ public class MPTracker {
        // PaymentTracker.trackToken(token, delegate: mpDelegate)
     }
     
-    public class func trackPaymentOffEvent(paymentId: String!, mpDelegate: MPTrackerDelegate){
+    open class func trackPaymentOffEvent(_ paymentId: String!, mpDelegate: MPTrackerDelegate){
         if (!initialized){
             self.initialize(mpDelegate)
         }
         MPTracker.trackEvent(mpDelegate, action: "", result: "")
-        PaymentTracker.trackPaymentOff(paymentId, delegate: mpDelegate)
+        PaymentTracker.trackPaymentOff(paymentId: paymentId, delegate: mpDelegate)
     }
     
     
-    private class func flowTrackInfo(mpDelegate: MPTrackerDelegate!) -> FlowTrackInfo {
+    fileprivate class func flowTrackInfo(_ mpDelegate: MPTrackerDelegate!) -> FlowTrackInfo {
     
         let flowInfo : FlowTrackInfo = FlowTrackInfo(flavor: mpDelegate.flavor(), framework: mpDelegate.framework(), sdkVersion: mpDelegate.sdkVersion(), publicKey: mpDelegate.publicKey())
         
         return flowInfo
     }
     
-    public class func trackScreenName(mpDelegate : MPTrackerDelegate!, screenName: String!){
+    open class func trackScreenName(_ mpDelegate : MPTrackerDelegate!, screenName: String!){
         if (!initialized){
             self.initialize(mpDelegate)
         }
         GATracker.sharedInstance.trackScreen(flavorText() + "/" + screenName)
     }
     
-    public class func trackCreateToken(mpDelegate: MPTrackerDelegate!,token: String!){
+    open class func trackCreateToken(_ mpDelegate: MPTrackerDelegate!,token: String!){
         
         
-        PaymentTracker.trackToken(token, delegate: mpDelegate)
+        PaymentTracker.trackToken(token: token, delegate: mpDelegate)
         
     }
     
-    private class func flavorText() -> String{
+    fileprivate class func flavorText() -> String{
         
         if (MPTracker.flavor != nil){
             return "F" + (MPTracker.flavor?.rawValue)!

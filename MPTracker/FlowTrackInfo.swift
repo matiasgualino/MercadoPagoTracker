@@ -7,7 +7,7 @@
 //
 
 
-public class FlowTrackInfo: NSObject {
+open class FlowTrackInfo: NSObject {
     
     
     static let FLOW_FLAVOR : UInt = 1

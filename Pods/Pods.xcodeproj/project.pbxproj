@@ -1,585 +1,1489 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		0491B8A3257D25153B8BAC8221D9E1D3 /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = C1697BBF600FE3D1E518DAE1CD59F9EB /* GAIFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AB26E6D16123447BBFBDF7ABEFEEC70 /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B465F104E86F0C3AD446DA7E923E30 /* GAIEcommerceProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37EBCD534E723C2E0C88CA186DB71581 /* libGoogleAnalyticsServices.a in Sources */ = {isa = PBXBuildFile; fileRef = EB80185D54A93D4856B86AED91820825 /* libGoogleAnalyticsServices.a */; };
-		49076EBAB30A101AB74C604D4A3F4898 /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C57B74C561F9DB0BBA0677EDF68B5A5 /* GAIDictionaryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5345DEF4154DC29FE5E39F7950441DA3 /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EE8C4DCCEB6FCCD34ABCDE118AA435 /* GAITrackedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5787F55400FEFC3B623540595F38932C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		6DBE2ECC79C65DC47BB11090810C6E58 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D55CA0C0C8FCAC245CEC139B4E9A81A3 /* GAIEcommerceProductAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ED69E012932E6E9BE95AD6ED2F0D433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		99064CA3C4747C770737A2F026799CED /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2ED1E54A340B2F64EF5E38B051EBEF /* GAIEcommercePromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99692D67F789AC22DAFE88D6CBE51C0C /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9004059905EE387D2C5784AFF17955 /* GAILogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B749555A2B354E14C3A225506D4F5910 /* MPGoogleAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AF013B64D648FC0C94CF1DB6E3F2C6 /* MPGoogleAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C16415AFC003CC107D34D607FE54C7F9 /* MPGoogleAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44378D45D5B1252201316DA8A8EB28 /* MPGoogleAnalytics-dummy.m */; };
-		DCE073537D9E666507884D4961BEFFA4 /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4312A4595E420FFF3271ACC7E7D638 /* GAITracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD088710F679F7B4AEAB362E7D5EF3C3 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE99826DD39D36B9B8C97848398585C /* GAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E24E1F1F6A83536718B43EB487748862 /* Pods-MPTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BEA2E23E790FC7616B95DE3D9D410E /* Pods-MPTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F84D11503BEA897FA643425A6285213A /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA19993A85BD5E2007C94D3D5897D42 /* GAIEcommerceFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEF1FD337CA6154C564F42B4FB9650FF /* Pods-MPTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFB151500AB1BEC1D9CA0D9A09E15E /* Pods-MPTracker-dummy.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D3275DE8C573142FDAE249E80FF21CA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D151CC4D4971261FBCBE97921F653E8F;
-			remoteInfo = MPGoogleAnalytics;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		0076926CFD50C377CC0AC5DE80E335A3 /* Pods-MPTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		0C2ED1E54A340B2F64EF5E38B051EBEF /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = MPGoogleAnalytics/Classes/GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		3D4312A4595E420FFF3271ACC7E7D638 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = MPGoogleAnalytics/Classes/GAITracker.h; sourceTree = "<group>"; };
-		4DA19993A85BD5E2007C94D3D5897D42 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = MPGoogleAnalytics/Classes/GAIEcommerceFields.h; sourceTree = "<group>"; };
-		4EE99826DD39D36B9B8C97848398585C /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = MPGoogleAnalytics/Classes/GAI.h; sourceTree = "<group>"; };
-		5D44378D45D5B1252201316DA8A8EB28 /* MPGoogleAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPGoogleAnalytics-dummy.m"; sourceTree = "<group>"; };
-		64B465F104E86F0C3AD446DA7E923E30 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = MPGoogleAnalytics/Classes/GAIEcommerceProduct.h; sourceTree = "<group>"; };
-		66B30A4B0DD1AE1438E8013CD3FB225A /* MPGoogleAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MPGoogleAnalytics.modulemap; sourceTree = "<group>"; };
-		6E9004059905EE387D2C5784AFF17955 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = MPGoogleAnalytics/Classes/GAILogger.h; sourceTree = "<group>"; };
-		75366E33268FE99AC1E2577B43285BCF /* Pods-MPTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPTracker-acknowledgements.plist"; sourceTree = "<group>"; };
-		7C57B74C561F9DB0BBA0677EDF68B5A5 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = MPGoogleAnalytics/Classes/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		866B2F3F9E9391C9AC5CBE3E6EF4646E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8939874B396A92E293C71A394567B955 /* Pods-MPTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MPTracker.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93BEA2E23E790FC7616B95DE3D9D410E /* Pods-MPTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPTracker-umbrella.h"; sourceTree = "<group>"; };
-		94EE8C4DCCEB6FCCD34ABCDE118AA435 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = MPGoogleAnalytics/Classes/GAITrackedViewController.h; sourceTree = "<group>"; };
-		98B0FD6726BD81A1ECB1E174AB984379 /* Pods-MPTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPTracker.release.xcconfig"; sourceTree = "<group>"; };
-		9FAFB151500AB1BEC1D9CA0D9A09E15E /* Pods-MPTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPTracker-dummy.m"; sourceTree = "<group>"; };
-		A929BDA3105F8B7A0034B2DF2B485D0A /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPGoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17571771C32368887A55AECFD23CFE5 /* Pods-MPTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B3A2F016169285746D22D5FCB3B956FF /* MPGoogleAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPGoogleAnalytics-prefix.pch"; sourceTree = "<group>"; };
-		BDCFE7A7BCD1DC407A7E20729A6B96CE /* MPGoogleAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPGoogleAnalytics.xcconfig; sourceTree = "<group>"; };
-		C1697BBF600FE3D1E518DAE1CD59F9EB /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = MPGoogleAnalytics/Classes/GAIFields.h; sourceTree = "<group>"; };
-		C5AF013B64D648FC0C94CF1DB6E3F2C6 /* MPGoogleAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPGoogleAnalytics-umbrella.h"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF8726CA938C86E01879CE450F798EF8 /* Pods_MPTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D38E38454625C645911989B55F6DB493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D55CA0C0C8FCAC245CEC139B4E9A81A3 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = MPGoogleAnalytics/Classes/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		D80ED543D6646DDF9B913BEABB75E396 /* Pods-MPTracker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPTracker-resources.sh"; sourceTree = "<group>"; };
-		EB80185D54A93D4856B86AED91820825 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = MPGoogleAnalytics/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
-		FD590355F77F1D5775721CB847268A20 /* Pods-MPTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPTracker-frameworks.sh"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		1FE95C770878F8EA404CFFFC79721528 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5787F55400FEFC3B623540595F38932C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CCC3E93BF549DB644A1F272707DD86B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7ED69E012932E6E9BE95AD6ED2F0D433 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		02DA7EAE8F79F7E8217C442DF4DFE6D5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1A6A2D45FA4AABDEE247C4C030B2BD3F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A929BDA3105F8B7A0034B2DF2B485D0A /* MPGoogleAnalytics.framework */,
-				CF8726CA938C86E01879CE450F798EF8 /* Pods_MPTracker.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		46DEAA913C9A723DBDC16F64D4DC33F1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				62A81F1FFDF8B0E3DF6509AABC81BBD9 /* MPGoogleAnalytics */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		62A81F1FFDF8B0E3DF6509AABC81BBD9 /* MPGoogleAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				4EE99826DD39D36B9B8C97848398585C /* GAI.h */,
-				7C57B74C561F9DB0BBA0677EDF68B5A5 /* GAIDictionaryBuilder.h */,
-				4DA19993A85BD5E2007C94D3D5897D42 /* GAIEcommerceFields.h */,
-				64B465F104E86F0C3AD446DA7E923E30 /* GAIEcommerceProduct.h */,
-				D55CA0C0C8FCAC245CEC139B4E9A81A3 /* GAIEcommerceProductAction.h */,
-				0C2ED1E54A340B2F64EF5E38B051EBEF /* GAIEcommercePromotion.h */,
-				C1697BBF600FE3D1E518DAE1CD59F9EB /* GAIFields.h */,
-				6E9004059905EE387D2C5784AFF17955 /* GAILogger.h */,
-				94EE8C4DCCEB6FCCD34ABCDE118AA435 /* GAITrackedViewController.h */,
-				3D4312A4595E420FFF3271ACC7E7D638 /* GAITracker.h */,
-				EB80185D54A93D4856B86AED91820825 /* libGoogleAnalyticsServices.a */,
-				02DA7EAE8F79F7E8217C442DF4DFE6D5 /* Frameworks */,
-				77263A3417CD5A01310940FB0729B4CF /* Support Files */,
-			);
-			path = MPGoogleAnalytics;
-			sourceTree = "<group>";
-		};
-		77263A3417CD5A01310940FB0729B4CF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D38E38454625C645911989B55F6DB493 /* Info.plist */,
-				66B30A4B0DD1AE1438E8013CD3FB225A /* MPGoogleAnalytics.modulemap */,
-				BDCFE7A7BCD1DC407A7E20729A6B96CE /* MPGoogleAnalytics.xcconfig */,
-				5D44378D45D5B1252201316DA8A8EB28 /* MPGoogleAnalytics-dummy.m */,
-				B3A2F016169285746D22D5FCB3B956FF /* MPGoogleAnalytics-prefix.pch */,
-				C5AF013B64D648FC0C94CF1DB6E3F2C6 /* MPGoogleAnalytics-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MPGoogleAnalytics";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				46DEAA913C9A723DBDC16F64D4DC33F1 /* Pods */,
-				1A6A2D45FA4AABDEE247C4C030B2BD3F /* Products */,
-				AA1479A149E6F7DE9C0379072FBFACBA /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		AA1479A149E6F7DE9C0379072FBFACBA /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FB5F34DAF28E9B3A8AA6530FB83BCED6 /* Pods-MPTracker */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FB5F34DAF28E9B3A8AA6530FB83BCED6 /* Pods-MPTracker */ = {
-			isa = PBXGroup;
-			children = (
-				866B2F3F9E9391C9AC5CBE3E6EF4646E /* Info.plist */,
-				8939874B396A92E293C71A394567B955 /* Pods-MPTracker.modulemap */,
-				B17571771C32368887A55AECFD23CFE5 /* Pods-MPTracker-acknowledgements.markdown */,
-				75366E33268FE99AC1E2577B43285BCF /* Pods-MPTracker-acknowledgements.plist */,
-				9FAFB151500AB1BEC1D9CA0D9A09E15E /* Pods-MPTracker-dummy.m */,
-				FD590355F77F1D5775721CB847268A20 /* Pods-MPTracker-frameworks.sh */,
-				D80ED543D6646DDF9B913BEABB75E396 /* Pods-MPTracker-resources.sh */,
-				93BEA2E23E790FC7616B95DE3D9D410E /* Pods-MPTracker-umbrella.h */,
-				0076926CFD50C377CC0AC5DE80E335A3 /* Pods-MPTracker.debug.xcconfig */,
-				98B0FD6726BD81A1ECB1E174AB984379 /* Pods-MPTracker.release.xcconfig */,
-			);
-			name = "Pods-MPTracker";
-			path = "Target Support Files/Pods-MPTracker";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		0A213430A57B2BFAF5E874DA86FEC382 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E24E1F1F6A83536718B43EB487748862 /* Pods-MPTracker-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		606F43ED6CB55019E68EEE5BFE439E6D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD088710F679F7B4AEAB362E7D5EF3C3 /* GAI.h in Headers */,
-				49076EBAB30A101AB74C604D4A3F4898 /* GAIDictionaryBuilder.h in Headers */,
-				F84D11503BEA897FA643425A6285213A /* GAIEcommerceFields.h in Headers */,
-				2AB26E6D16123447BBFBDF7ABEFEEC70 /* GAIEcommerceProduct.h in Headers */,
-				6DBE2ECC79C65DC47BB11090810C6E58 /* GAIEcommerceProductAction.h in Headers */,
-				99064CA3C4747C770737A2F026799CED /* GAIEcommercePromotion.h in Headers */,
-				0491B8A3257D25153B8BAC8221D9E1D3 /* GAIFields.h in Headers */,
-				99692D67F789AC22DAFE88D6CBE51C0C /* GAILogger.h in Headers */,
-				5345DEF4154DC29FE5E39F7950441DA3 /* GAITrackedViewController.h in Headers */,
-				DCE073537D9E666507884D4961BEFFA4 /* GAITracker.h in Headers */,
-				B749555A2B354E14C3A225506D4F5910 /* MPGoogleAnalytics-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		4546C0267C308D5C4AD6CCA5601C09B5 /* Pods-MPTracker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C81348E42522E8CF558C05B14E82F4D /* Build configuration list for PBXNativeTarget "Pods-MPTracker" */;
-			buildPhases = (
-				43E3974E62201C65CE652362CEBA4CE8 /* Sources */,
-				3CCC3E93BF549DB644A1F272707DD86B /* Frameworks */,
-				0A213430A57B2BFAF5E874DA86FEC382 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F14654DB0DB44DA45A9F6169A42D6F7 /* PBXTargetDependency */,
-			);
-			name = "Pods-MPTracker";
-			productName = "Pods-MPTracker";
-			productReference = CF8726CA938C86E01879CE450F798EF8 /* Pods_MPTracker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D151CC4D4971261FBCBE97921F653E8F /* MPGoogleAnalytics */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FBD0FC7FE0A5289F491D136C303BF5DF /* Build configuration list for PBXNativeTarget "MPGoogleAnalytics" */;
-			buildPhases = (
-				01F282859B5F978CBDBAF1E79603DBA0 /* Sources */,
-				1FE95C770878F8EA404CFFFC79721528 /* Frameworks */,
-				606F43ED6CB55019E68EEE5BFE439E6D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MPGoogleAnalytics;
-			productName = MPGoogleAnalytics;
-			productReference = A929BDA3105F8B7A0034B2DF2B485D0A /* MPGoogleAnalytics.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1A6A2D45FA4AABDEE247C4C030B2BD3F /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				D151CC4D4971261FBCBE97921F653E8F /* MPGoogleAnalytics */,
-				4546C0267C308D5C4AD6CCA5601C09B5 /* Pods-MPTracker */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		01F282859B5F978CBDBAF1E79603DBA0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37EBCD534E723C2E0C88CA186DB71581 /* libGoogleAnalyticsServices.a in Sources */,
-				C16415AFC003CC107D34D607FE54C7F9 /* MPGoogleAnalytics-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43E3974E62201C65CE652362CEBA4CE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FEF1FD337CA6154C564F42B4FB9650FF /* Pods-MPTracker-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1F14654DB0DB44DA45A9F6169A42D6F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MPGoogleAnalytics;
-			target = D151CC4D4971261FBCBE97921F653E8F /* MPGoogleAnalytics */;
-			targetProxy = D3275DE8C573142FDAE249E80FF21CA4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		01BD3C8F1918CA92356A3434B198BE28 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDCFE7A7BCD1DC407A7E20729A6B96CE /* MPGoogleAnalytics.xcconfig */;
-			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					i386,
-					x86_64,
-				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MPGoogleAnalytics/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MPGoogleAnalytics;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		28E7585B2D1E6DA748DA1879AAD1DC7B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDCFE7A7BCD1DC407A7E20729A6B96CE /* MPGoogleAnalytics.xcconfig */;
-			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					i386,
-					x86_64,
-				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MPGoogleAnalytics/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MPGoogleAnalytics;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		62ACB6556F42E32E1AFA05D85B64EB6A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0076926CFD50C377CC0AC5DE80E335A3 /* Pods-MPTracker.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					i386,
-					x86_64,
-				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MPTracker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MPTracker/Pods-MPTracker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MPTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F240DBCB17E8BF3A4DB9E70FE016B066 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98B0FD6726BD81A1ECB1E174AB984379 /* Pods-MPTracker.release.xcconfig */;
-			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					i386,
-					x86_64,
-				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MPTracker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MPTracker/Pods-MPTracker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MPTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47BEF9D903506B003EA5C2B249729489 /* Debug */,
-				AAF678CED40D3499169D10F63CA0719E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C81348E42522E8CF558C05B14E82F4D /* Build configuration list for PBXNativeTarget "Pods-MPTracker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62ACB6556F42E32E1AFA05D85B64EB6A /* Debug */,
-				F240DBCB17E8BF3A4DB9E70FE016B066 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FBD0FC7FE0A5289F491D136C303BF5DF /* Build configuration list for PBXNativeTarget "MPGoogleAnalytics" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01BD3C8F1918CA92356A3434B198BE28 /* Debug */,
-				28E7585B2D1E6DA748DA1879AAD1DC7B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0076926CFD50C377CC0AC5DE80E335A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MPTracker.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>01BD3C8F1918CA92356A3434B198BE28</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BDCFE7A7BCD1DC407A7E20729A6B96CE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<array>
+					<string>$(ARCHS_STANDARD)</string>
+					<string>i386</string>
+					<string>x86_64</string>
+				</array>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/MPGoogleAnalytics/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>MPGoogleAnalytics</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>01F282859B5F978CBDBAF1E79603DBA0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>37EBCD534E723C2E0C88CA186DB71581</string>
+				<string>C16415AFC003CC107D34D607FE54C7F9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>02DA7EAE8F79F7E8217C442DF4DFE6D5</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0491B8A3257D25153B8BAC8221D9E1D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1697BBF600FE3D1E518DAE1CD59F9EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0A213430A57B2BFAF5E874DA86FEC382</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E24E1F1F6A83536718B43EB487748862</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0C2ED1E54A340B2F64EF5E38B051EBEF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAIEcommercePromotion.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAIEcommercePromotion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1A6A2D45FA4AABDEE247C4C030B2BD3F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A929BDA3105F8B7A0034B2DF2B485D0A</string>
+				<string>CF8726CA938C86E01879CE450F798EF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F14654DB0DB44DA45A9F6169A42D6F7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>MPGoogleAnalytics</string>
+			<key>target</key>
+			<string>D151CC4D4971261FBCBE97921F653E8F</string>
+			<key>targetProxy</key>
+			<string>D3275DE8C573142FDAE249E80FF21CA4</string>
+		</dict>
+		<key>1FE95C770878F8EA404CFFFC79721528</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5787F55400FEFC3B623540595F38932C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>28E7585B2D1E6DA748DA1879AAD1DC7B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BDCFE7A7BCD1DC407A7E20729A6B96CE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<array>
+					<string>$(ARCHS_STANDARD)</string>
+					<string>i386</string>
+					<string>x86_64</string>
+				</array>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/MPGoogleAnalytics/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/MPGoogleAnalytics/MPGoogleAnalytics.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>MPGoogleAnalytics</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2AB26E6D16123447BBFBDF7ABEFEEC70</key>
+		<dict>
+			<key>fileRef</key>
+			<string>64B465F104E86F0C3AD446DA7E923E30</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>47BEF9D903506B003EA5C2B249729489</string>
+				<string>AAF678CED40D3499169D10F63CA0719E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>37EBCD534E723C2E0C88CA186DB71581</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EB80185D54A93D4856B86AED91820825</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3CCC3E93BF549DB644A1F272707DD86B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7ED69E012932E6E9BE95AD6ED2F0D433</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3D4312A4595E420FFF3271ACC7E7D638</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAITracker.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAITracker.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>43E3974E62201C65CE652362CEBA4CE8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FEF1FD337CA6154C564F42B4FB9650FF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4546C0267C308D5C4AD6CCA5601C09B5</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9C81348E42522E8CF558C05B14E82F4D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>43E3974E62201C65CE652362CEBA4CE8</string>
+				<string>3CCC3E93BF549DB644A1F272707DD86B</string>
+				<string>0A213430A57B2BFAF5E874DA86FEC382</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>1F14654DB0DB44DA45A9F6169A42D6F7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-MPTracker</string>
+			<key>productName</key>
+			<string>Pods-MPTracker</string>
+			<key>productReference</key>
+			<string>CF8726CA938C86E01879CE450F798EF8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>46DEAA913C9A723DBDC16F64D4DC33F1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>62A81F1FFDF8B0E3DF6509AABC81BBD9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47BEF9D903506B003EA5C2B249729489</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>POD_CONFIGURATION_DEBUG=1</string>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>49076EBAB30A101AB74C604D4A3F4898</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7C57B74C561F9DB0BBA0677EDF68B5A5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>4DA19993A85BD5E2007C94D3D5897D42</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAIEcommerceFields.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAIEcommerceFields.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4EE99826DD39D36B9B8C97848398585C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAI.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAI.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5345DEF4154DC29FE5E39F7950441DA3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>94EE8C4DCCEB6FCCD34ABCDE118AA435</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5787F55400FEFC3B623540595F38932C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5D44378D45D5B1252201316DA8A8EB28</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>606F43ED6CB55019E68EEE5BFE439E6D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DD088710F679F7B4AEAB362E7D5EF3C3</string>
+				<string>49076EBAB30A101AB74C604D4A3F4898</string>
+				<string>F84D11503BEA897FA643425A6285213A</string>
+				<string>2AB26E6D16123447BBFBDF7ABEFEEC70</string>
+				<string>6DBE2ECC79C65DC47BB11090810C6E58</string>
+				<string>99064CA3C4747C770737A2F026799CED</string>
+				<string>0491B8A3257D25153B8BAC8221D9E1D3</string>
+				<string>99692D67F789AC22DAFE88D6CBE51C0C</string>
+				<string>5345DEF4154DC29FE5E39F7950441DA3</string>
+				<string>DCE073537D9E666507884D4961BEFFA4</string>
+				<string>B749555A2B354E14C3A225506D4F5910</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>62A81F1FFDF8B0E3DF6509AABC81BBD9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4EE99826DD39D36B9B8C97848398585C</string>
+				<string>7C57B74C561F9DB0BBA0677EDF68B5A5</string>
+				<string>4DA19993A85BD5E2007C94D3D5897D42</string>
+				<string>64B465F104E86F0C3AD446DA7E923E30</string>
+				<string>D55CA0C0C8FCAC245CEC139B4E9A81A3</string>
+				<string>0C2ED1E54A340B2F64EF5E38B051EBEF</string>
+				<string>C1697BBF600FE3D1E518DAE1CD59F9EB</string>
+				<string>6E9004059905EE387D2C5784AFF17955</string>
+				<string>94EE8C4DCCEB6FCCD34ABCDE118AA435</string>
+				<string>3D4312A4595E420FFF3271ACC7E7D638</string>
+				<string>EB80185D54A93D4856B86AED91820825</string>
+				<string>02DA7EAE8F79F7E8217C442DF4DFE6D5</string>
+				<string>77263A3417CD5A01310940FB0729B4CF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MPGoogleAnalytics</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>62ACB6556F42E32E1AFA05D85B64EB6A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0076926CFD50C377CC0AC5DE80E335A3</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<array>
+					<string>$(ARCHS_STANDARD)</string>
+					<string>i386</string>
+					<string>x86_64</string>
+				</array>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-MPTracker/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-MPTracker/Pods-MPTracker.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_MPTracker</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>64B465F104E86F0C3AD446DA7E923E30</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAIEcommerceProduct.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAIEcommerceProduct.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>66B30A4B0DD1AE1438E8013CD3FB225A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6DBE2ECC79C65DC47BB11090810C6E58</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D55CA0C0C8FCAC245CEC139B4E9A81A3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6E9004059905EE387D2C5784AFF17955</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAILogger.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAILogger.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>75366E33268FE99AC1E2577B43285BCF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-MPTracker-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77263A3417CD5A01310940FB0729B4CF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D38E38454625C645911989B55F6DB493</string>
+				<string>66B30A4B0DD1AE1438E8013CD3FB225A</string>
+				<string>BDCFE7A7BCD1DC407A7E20729A6B96CE</string>
+				<string>5D44378D45D5B1252201316DA8A8EB28</string>
+				<string>B3A2F016169285746D22D5FCB3B956FF</string>
+				<string>C5AF013B64D648FC0C94CF1DB6E3F2C6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/MPGoogleAnalytics</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7C57B74C561F9DB0BBA0677EDF68B5A5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAIDictionaryBuilder.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAIDictionaryBuilder.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>46DEAA913C9A723DBDC16F64D4DC33F1</string>
+				<string>1A6A2D45FA4AABDEE247C4C030B2BD3F</string>
+				<string>AA1479A149E6F7DE9C0379072FBFACBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7ED69E012932E6E9BE95AD6ED2F0D433</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>866B2F3F9E9391C9AC5CBE3E6EF4646E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8939874B396A92E293C71A394567B955</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-MPTracker.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>text.script.ruby</string>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>93BEA2E23E790FC7616B95DE3D9D410E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-MPTracker-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>94EE8C4DCCEB6FCCD34ABCDE118AA435</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAITrackedViewController.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAITrackedViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>98B0FD6726BD81A1ECB1E174AB984379</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MPTracker.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>99064CA3C4747C770737A2F026799CED</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0C2ED1E54A340B2F64EF5E38B051EBEF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>99692D67F789AC22DAFE88D6CBE51C0C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E9004059905EE387D2C5784AFF17955</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9C81348E42522E8CF558C05B14E82F4D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>62ACB6556F42E32E1AFA05D85B64EB6A</string>
+				<string>F240DBCB17E8BF3A4DB9E70FE016B066</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9FAFB151500AB1BEC1D9CA0D9A09E15E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-MPTracker-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A929BDA3105F8B7A0034B2DF2B485D0A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>MPGoogleAnalytics.framework</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>AA1479A149E6F7DE9C0379072FBFACBA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FB5F34DAF28E9B3A8AA6530FB83BCED6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AAF678CED40D3499169D10F63CA0719E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>POD_CONFIGURATION_RELEASE=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B17571771C32368887A55AECFD23CFE5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-MPTracker-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3A2F016169285746D22D5FCB3B956FF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B749555A2B354E14C3A225506D4F5910</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5AF013B64D648FC0C94CF1DB6E3F2C6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3DCAB2B7CDE207B3958B6CB957FCC758</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BDCFE7A7BCD1DC407A7E20729A6B96CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C16415AFC003CC107D34D607FE54C7F9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5D44378D45D5B1252201316DA8A8EB28</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1697BBF600FE3D1E518DAE1CD59F9EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAIFields.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAIFields.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5AF013B64D648FC0C94CF1DB6E3F2C6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>CF8726CA938C86E01879CE450F798EF8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_MPTracker.framework</string>
+			<key>path</key>
+			<string>Pods-MPTracker.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D151CC4D4971261FBCBE97921F653E8F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>FBD0FC7FE0A5289F491D136C303BF5DF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>01F282859B5F978CBDBAF1E79603DBA0</string>
+				<string>1FE95C770878F8EA404CFFFC79721528</string>
+				<string>606F43ED6CB55019E68EEE5BFE439E6D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MPGoogleAnalytics</string>
+			<key>productName</key>
+			<string>MPGoogleAnalytics</string>
+			<key>productReference</key>
+			<string>A929BDA3105F8B7A0034B2DF2B485D0A</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>D3275DE8C573142FDAE249E80FF21CA4</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D151CC4D4971261FBCBE97921F653E8F</string>
+			<key>remoteInfo</key>
+			<string>MPGoogleAnalytics</string>
+		</dict>
+		<key>D38E38454625C645911989B55F6DB493</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>1A6A2D45FA4AABDEE247C4C030B2BD3F</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>D151CC4D4971261FBCBE97921F653E8F</string>
+				<string>4546C0267C308D5C4AD6CCA5601C09B5</string>
+			</array>
+		</dict>
+		<key>D55CA0C0C8FCAC245CEC139B4E9A81A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GAIEcommerceProductAction.h</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/GAIEcommerceProductAction.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D80ED543D6646DDF9B913BEABB75E396</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-MPTracker-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCE073537D9E666507884D4961BEFFA4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3D4312A4595E420FFF3271ACC7E7D638</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DD088710F679F7B4AEAB362E7D5EF3C3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4EE99826DD39D36B9B8C97848398585C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E24E1F1F6A83536718B43EB487748862</key>
+		<dict>
+			<key>fileRef</key>
+			<string>93BEA2E23E790FC7616B95DE3D9D410E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EB80185D54A93D4856B86AED91820825</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libGoogleAnalyticsServices.a</string>
+			<key>path</key>
+			<string>MPGoogleAnalytics/Classes/libGoogleAnalyticsServices.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F240DBCB17E8BF3A4DB9E70FE016B066</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>98B0FD6726BD81A1ECB1E174AB984379</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<array>
+					<string>$(ARCHS_STANDARD)</string>
+					<string>i386</string>
+					<string>x86_64</string>
+				</array>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-MPTracker/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-MPTracker/Pods-MPTracker.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_MPTracker</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>F84D11503BEA897FA643425A6285213A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4DA19993A85BD5E2007C94D3D5897D42</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FB5F34DAF28E9B3A8AA6530FB83BCED6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>866B2F3F9E9391C9AC5CBE3E6EF4646E</string>
+				<string>8939874B396A92E293C71A394567B955</string>
+				<string>B17571771C32368887A55AECFD23CFE5</string>
+				<string>75366E33268FE99AC1E2577B43285BCF</string>
+				<string>9FAFB151500AB1BEC1D9CA0D9A09E15E</string>
+				<string>FD590355F77F1D5775721CB847268A20</string>
+				<string>D80ED543D6646DDF9B913BEABB75E396</string>
+				<string>93BEA2E23E790FC7616B95DE3D9D410E</string>
+				<string>0076926CFD50C377CC0AC5DE80E335A3</string>
+				<string>98B0FD6726BD81A1ECB1E174AB984379</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-MPTracker</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-MPTracker</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FBD0FC7FE0A5289F491D136C303BF5DF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>01BD3C8F1918CA92356A3434B198BE28</string>
+				<string>28E7585B2D1E6DA748DA1879AAD1DC7B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>FD590355F77F1D5775721CB847268A20</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-MPTracker-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FEF1FD337CA6154C564F42B4FB9650FF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9FAFB151500AB1BEC1D9CA0D9A09E15E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>
