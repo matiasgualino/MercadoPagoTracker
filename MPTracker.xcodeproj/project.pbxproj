@@ -12,6 +12,8 @@
 		1561761B1D998FED00712AB6 /* Pods_MPTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1561761A1D998FED00712AB6 /* Pods_MPTracker.framework */; };
 		1561761D1D999E8B00712AB6 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561761C1D999E8B00712AB6 /* JSONHandler.swift */; };
 		156176251D99C14B00712AB6 /* MPGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156176181D998FEB00712AB6 /* MPGoogleAnalytics.framework */; };
+		156176291D99C24600712AB6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */; };
+		1561762A1D99C25700712AB6 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */; };
 		157E1E741D19C6E4003CC71E /* PaymentTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157E1E731D19C6E4003CC71E /* PaymentTracker.swift */; };
 		15A761D01CE12974008F87A6 /* GATracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761CF1CE12974008F87A6 /* GATracker.swift */; };
 		15A761D61CE21CD6008F87A6 /* PaymentTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761D51CE21CD6008F87A6 /* PaymentTrackInfo.swift */; };
@@ -50,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156176291D99C24600712AB6 /* libsqlite3.0.tbd in Frameworks */,
+				1561762A1D99C25700712AB6 /* libGoogleAnalyticsServices.a in Frameworks */,
 				0F9F8A041CE4C77F0053AABC /* CoreData.framework in Frameworks */,
 				156176251D99C14B00712AB6 /* MPGoogleAnalytics.framework in Frameworks */,
 				1561761B1D998FED00712AB6 /* Pods_MPTracker.framework in Frameworks */,
