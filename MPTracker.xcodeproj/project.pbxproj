@@ -9,30 +9,30 @@
 /* Begin PBXBuildFile section */
 		0F9F8A021CE4C77A0053AABC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A011CE4C77A0053AABC /* SystemConfiguration.framework */; };
 		0F9F8A041CE4C77F0053AABC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A031CE4C77F0053AABC /* CoreData.framework */; };
-		1561761B1D998FED00712AB6 /* Pods_MPTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1561761A1D998FED00712AB6 /* Pods_MPTracker.framework */; };
+		15251F6D1D9AD79300018220 /* MPGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15251F6C1D9AD79300018220 /* MPGoogleAnalytics.framework */; };
 		1561761D1D999E8B00712AB6 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561761C1D999E8B00712AB6 /* JSONHandler.swift */; };
-		156176251D99C14B00712AB6 /* MPGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156176181D998FEB00712AB6 /* MPGoogleAnalytics.framework */; };
 		156176291D99C24600712AB6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */; };
 		1561762A1D99C25700712AB6 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */; };
+		1577C05E1D9AD28A00A67EBE /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A051CE4C7860053AABC /* libz.1.1.3.tbd */; };
 		157E1E741D19C6E4003CC71E /* PaymentTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157E1E731D19C6E4003CC71E /* PaymentTracker.swift */; };
 		15A761D01CE12974008F87A6 /* GATracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761CF1CE12974008F87A6 /* GATracker.swift */; };
 		15A761D61CE21CD6008F87A6 /* PaymentTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761D51CE21CD6008F87A6 /* PaymentTrackInfo.swift */; };
 		15A761D81CE22184008F87A6 /* FlowTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761D71CE22184008F87A6 /* FlowTrackInfo.swift */; };
 		15C527C01CE10A9E00D113F6 /* MPTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C527BF1CE10A9E00D113F6 /* MPTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C527C91CE10BAC00D113F6 /* MPTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C527C81CE10BAC00D113F6 /* MPTracker.swift */; };
+		D3E5095EAC94D30DB6F9F0EF /* Pods_MPTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDB368AEDFE968C9FAF0988 /* Pods_MPTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F9F89FF1CE4C7730053AABC /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPGoogleAnalytics.framework; path = "Build/Products/Debug-iphoneos/MPGoogleAnalytics/MPGoogleAnalytics.framework"; sourceTree = "<group>"; };
 		0F9F8A011CE4C77A0053AABC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0F9F8A031CE4C77F0053AABC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0F9F8A051CE4C7860053AABC /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
 		0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Pods/MPGoogleAnalytics/MPGoogleAnalytics/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		15251F6C1D9AD79300018220 /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPGoogleAnalytics.framework; path = "../../Library/Developer/Xcode/DerivedData/MPTracker-giiwcinubtvdtlezzocqxtbnqfjk/Build/Products/Debug-iphoneos/MPGoogleAnalytics/MPGoogleAnalytics.framework"; sourceTree = "<group>"; };
 		156176181D998FEB00712AB6 /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPGoogleAnalytics.framework; path = "../../Library/Developer/Xcode/DerivedData/MPTracker-giiwcinubtvdtlezzocqxtbnqfjk/Build/Products/Debug-iphonesimulator/MPGoogleAnalytics/MPGoogleAnalytics.framework"; sourceTree = "<group>"; };
-		1561761A1D998FED00712AB6 /* Pods_MPTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_MPTracker.framework; path = "../../Library/Developer/Xcode/DerivedData/MPTracker-giiwcinubtvdtlezzocqxtbnqfjk/Build/Products/Debug-iphonesimulator/Pods_MPTracker.framework"; sourceTree = "<group>"; };
 		1561761C1D999E8B00712AB6 /* JSONHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHandler.swift; sourceTree = "<group>"; };
-		156176271D99C1DF00712AB6 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Pods/MPGoogleAnalytics/MPGoogleAnalytics/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		1577C05F1D9AD64E00A67EBE /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPGoogleAnalytics.framework; path = "Pods/../build/Debug-iphoneos/MPGoogleAnalytics/MPGoogleAnalytics.framework"; sourceTree = "<group>"; };
 		157E1E731D19C6E4003CC71E /* PaymentTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTracker.swift; sourceTree = "<group>"; };
 		15A761CF1CE12974008F87A6 /* GATracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GATracker.swift; sourceTree = "<group>"; };
 		15A761D51CE21CD6008F87A6 /* PaymentTrackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTrackInfo.swift; sourceTree = "<group>"; };
@@ -42,9 +42,8 @@
 		15C527C11CE10A9E00D113F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C527C81CE10BAC00D113F6 /* MPTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPTracker.swift; sourceTree = "<group>"; };
 		2A8DF8CDDD2DC697C5E9E42A /* Pods-MPTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPTracker/Pods-MPTracker.release.xcconfig"; sourceTree = "<group>"; };
-		6574AA82BC4391BBE382BD56 /* Pods_MPTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB60926F017C0291D5FBA0E /* Pods-MPTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPTracker/Pods-MPTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		A8402896C5036F80076E5A44 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDB368AEDFE968C9FAF0988 /* Pods_MPTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,12 +51,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1577C05E1D9AD28A00A67EBE /* libz.1.1.3.tbd in Frameworks */,
 				156176291D99C24600712AB6 /* libsqlite3.0.tbd in Frameworks */,
 				1561762A1D99C25700712AB6 /* libGoogleAnalyticsServices.a in Frameworks */,
 				0F9F8A041CE4C77F0053AABC /* CoreData.framework in Frameworks */,
-				156176251D99C14B00712AB6 /* MPGoogleAnalytics.framework in Frameworks */,
-				1561761B1D998FED00712AB6 /* Pods_MPTracker.framework in Frameworks */,
 				0F9F8A021CE4C77A0053AABC /* SystemConfiguration.framework in Frameworks */,
+				15251F6D1D9AD79300018220 /* MPGoogleAnalytics.framework in Frameworks */,
+				D3E5095EAC94D30DB6F9F0EF /* Pods_MPTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,6 @@
 		15C527B21CE10A9E00D113F6 = {
 			isa = PBXGroup;
 			children = (
-				156176271D99C1DF00712AB6 /* libGoogleAnalyticsServices.a */,
 				15C527BE1CE10A9E00D113F6 /* MPTracker */,
 				15C527BD1CE10A9E00D113F6 /* Products */,
 				22D1A5F121D2278D70FADFF6 /* Frameworks */,
@@ -133,16 +132,15 @@
 		22D1A5F121D2278D70FADFF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1561761A1D998FED00712AB6 /* Pods_MPTracker.framework */,
+				15251F6C1D9AD79300018220 /* MPGoogleAnalytics.framework */,
+				1577C05F1D9AD64E00A67EBE /* MPGoogleAnalytics.framework */,
 				156176181D998FEB00712AB6 /* MPGoogleAnalytics.framework */,
 				0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */,
 				0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */,
 				0F9F8A051CE4C7860053AABC /* libz.1.1.3.tbd */,
 				0F9F8A031CE4C77F0053AABC /* CoreData.framework */,
 				0F9F8A011CE4C77A0053AABC /* SystemConfiguration.framework */,
-				0F9F89FF1CE4C7730053AABC /* MPGoogleAnalytics.framework */,
-				A8402896C5036F80076E5A44 /* Pods.framework */,
-				6574AA82BC4391BBE382BD56 /* Pods_MPTracker.framework */,
+				EBDB368AEDFE968C9FAF0988 /* Pods_MPTracker.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -324,9 +322,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -370,8 +369,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
@@ -385,6 +386,11 @@
 			baseConfigurationReference = 7FB60926F017C0291D5FBA0E /* Pods-MPTracker.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					i386,
+				);
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -395,6 +401,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos/MPGoogleAnalytics",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MPGoogleAnalytics",
 				);
 				INFOPLIST_FILE = MPTracker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -404,11 +411,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/MPGoogleAnalytics/MPGoogleAnalytics/Classes",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mercadolibre.MPTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Debug;
 		};
@@ -417,6 +426,11 @@
 			baseConfigurationReference = 2A8DF8CDDD2DC697C5E9E42A /* Pods-MPTracker.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					i386,
+				);
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -427,6 +441,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos/MPGoogleAnalytics",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MPGoogleAnalytics",
 				);
 				INFOPLIST_FILE = MPTracker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -436,10 +451,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/MPGoogleAnalytics/MPGoogleAnalytics/Classes",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mercadolibre.MPTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Release;
 		};
