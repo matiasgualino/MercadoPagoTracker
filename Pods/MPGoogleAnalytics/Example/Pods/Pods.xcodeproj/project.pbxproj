@@ -17,16 +17,16 @@
 		0F9F89C91CE3CA430053AABC /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89BE1CE3CA430053AABC /* GAILogger.h */; };
 		0F9F89CA1CE3CA430053AABC /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89BF1CE3CA430053AABC /* GAITrackedViewController.h */; };
 		0F9F89CB1CE3CA430053AABC /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9F89C01CE3CA430053AABC /* GAITracker.h */; };
-		0F9F89CC1CE3CA430053AABC /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F89C11CE3CA430053AABC /* libGoogleAnalyticsServices.a */; };
 		0F9F8A0F1CE559A60053AABC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A0E1CE559A60053AABC /* SystemConfiguration.framework */; };
 		0F9F8A111CE559AC0053AABC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A101CE559AC0053AABC /* CoreData.framework */; };
 		0F9F8A131CE559B50053AABC /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A121CE559B50053AABC /* libz.1.2.5.tbd */; };
 		0F9F8A151CE559C10053AABC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A141CE559C10053AABC /* libsqlite3.0.tbd */; };
 		113E9A2CE5E79F3A3691F0A504E7A90F /* Pods-MPGoogleAnalytics_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DCD9B2B89B52177E5C2DC7B79A1D1 /* Pods-MPGoogleAnalytics_Tests-dummy.m */; };
+		15E08F461D9C02190087041B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E08F451D9C02190087041B /* Foundation.framework */; };
+		15E08F471D9C02380087041B /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F89C11CE3CA430053AABC /* libGoogleAnalyticsServices.a */; };
 		1F421DC7E12A22F03597663FA501F078 /* MPGoogleAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C91FA5E68BBCB42A89BC56F7D953055 /* MPGoogleAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D20213E4437ECD76A3FD4029C6EB264 /* MPGoogleAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB86B57C8F562B2CBF19F07900338D /* MPGoogleAnalytics-dummy.m */; };
 		AA2AB4F33FB7FAD450021F7BBF907138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E24064CDF43F67D5A761CE1B85A18146 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E8A690EC67503569A0FE954BFD761F53 /* Pods-MPGoogleAnalytics_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD86D7CF3C79DDC7B444874CB48CC6B7 /* Pods-MPGoogleAnalytics_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -57,6 +57,7 @@
 		0F9F8A121CE559B50053AABC /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		0F9F8A141CE559C10053AABC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		137A0052C860D093DED40099D1709E89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E08F451D9C02190087041B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		61D82D570CB279F079619F67A803A10C /* MPGoogleAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPGoogleAnalytics-prefix.pch"; sourceTree = "<group>"; };
 		6327CDA422EE62B377F90929D368A2D0 /* Pods-MPGoogleAnalytics_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPGoogleAnalytics_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6C5F0E5161BD488D60BF2B397EA1511E /* MPGoogleAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPGoogleAnalytics.xcconfig; sourceTree = "<group>"; };
@@ -83,12 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E08F461D9C02190087041B /* Foundation.framework in Frameworks */,
 				0F9F8A151CE559C10053AABC /* libsqlite3.0.tbd in Frameworks */,
 				0F9F8A131CE559B50053AABC /* libz.1.2.5.tbd in Frameworks */,
 				0F9F8A111CE559AC0053AABC /* CoreData.framework in Frameworks */,
 				0F9F8A0F1CE559A60053AABC /* SystemConfiguration.framework in Frameworks */,
-				E24064CDF43F67D5A761CE1B85A18146 /* Foundation.framework in Frameworks */,
-				0F9F89CC1CE3CA430053AABC /* libGoogleAnalyticsServices.a in Frameworks */,
+				15E08F471D9C02380087041B /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +209,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15E08F451D9C02190087041B /* Foundation.framework */,
 				0F9F8A141CE559C10053AABC /* libsqlite3.0.tbd */,
 				0F9F8A121CE559B50053AABC /* libz.1.2.5.tbd */,
 				0F9F8A101CE559AC0053AABC /* CoreData.framework */,

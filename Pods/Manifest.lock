@@ -1,12 +1,12 @@
 PODS:
-  - MPGoogleAnalytics (0.2.4)
+  - MPGoogleAnalytics (0.2.9)
 
 DEPENDENCIES:
-  - MPGoogleAnalytics (= 0.2.4)
+  - MPGoogleAnalytics (= 0.2.9)
 
 SPEC CHECKSUMS:
-  MPGoogleAnalytics: 175fcff2a72363c43850887ad0a0ae4216597b23
+  MPGoogleAnalytics: 2d3b3fe705ef686f0becf224a133f74c02af358a
 
-PODFILE CHECKSUM: c8abdf9921cc8667c74b8ad87fa5eac9d89e9f3e
+PODFILE CHECKSUM: b4c7fd977dfe2f1a01b57bd13e7f7b1bb4975f38
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2
