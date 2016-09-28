@@ -43,7 +43,7 @@ echo "=========================================="
 echo "2) Validate .podspec --allow-warnings"
 echo "=========================================="
 
-pod lib lint --allow-warnings --verbose --no-clean
+pod lib lint --allow-warnings --verbose
 STATUS=$?
 if [ $STATUS -ne 0 ]
 	then
@@ -56,7 +56,7 @@ echo "=========================================="
 echo "3) Create tag for version $VERSION from development branch"
 echo "=========================================="
 
-git checkout development
+git checkout swift3migration
 git tag $VERSION
 git push origin $VERSION
 PUSH_STATUS=$?

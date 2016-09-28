@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		0F9F8A021CE4C77A0053AABC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A011CE4C77A0053AABC /* SystemConfiguration.framework */; };
 		0F9F8A041CE4C77F0053AABC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A031CE4C77F0053AABC /* CoreData.framework */; };
-		15251F6D1D9AD79300018220 /* MPGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15251F6C1D9AD79300018220 /* MPGoogleAnalytics.framework */; };
 		1561761D1D999E8B00712AB6 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561761C1D999E8B00712AB6 /* JSONHandler.swift */; };
 		156176291D99C24600712AB6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */; };
-		1561762A1D99C25700712AB6 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */; };
 		1577C05E1D9AD28A00A67EBE /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A051CE4C7860053AABC /* libz.1.1.3.tbd */; };
 		157E1E741D19C6E4003CC71E /* PaymentTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157E1E731D19C6E4003CC71E /* PaymentTracker.swift */; };
+		15979D931D9ADC620074FA72 /* MPGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15979D921D9ADC620074FA72 /* MPGoogleAnalytics.framework */; };
+		15979D981D9AEE7C0074FA72 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */; };
+		15979D9A1D9AEF2E0074FA72 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 15979D991D9AEF2E0074FA72 /* libsqlite3.tbd */; };
 		15A761D01CE12974008F87A6 /* GATracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761CF1CE12974008F87A6 /* GATracker.swift */; };
 		15A761D61CE21CD6008F87A6 /* PaymentTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761D51CE21CD6008F87A6 /* PaymentTrackInfo.swift */; };
 		15A761D81CE22184008F87A6 /* FlowTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761D71CE22184008F87A6 /* FlowTrackInfo.swift */; };
@@ -29,11 +30,10 @@
 		0F9F8A051CE4C7860053AABC /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
 		0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Pods/MPGoogleAnalytics/MPGoogleAnalytics/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
-		15251F6C1D9AD79300018220 /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPGoogleAnalytics.framework; path = "../../Library/Developer/Xcode/DerivedData/MPTracker-giiwcinubtvdtlezzocqxtbnqfjk/Build/Products/Debug-iphoneos/MPGoogleAnalytics/MPGoogleAnalytics.framework"; sourceTree = "<group>"; };
-		156176181D998FEB00712AB6 /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPGoogleAnalytics.framework; path = "../../Library/Developer/Xcode/DerivedData/MPTracker-giiwcinubtvdtlezzocqxtbnqfjk/Build/Products/Debug-iphonesimulator/MPGoogleAnalytics/MPGoogleAnalytics.framework"; sourceTree = "<group>"; };
 		1561761C1D999E8B00712AB6 /* JSONHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHandler.swift; sourceTree = "<group>"; };
-		1577C05F1D9AD64E00A67EBE /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPGoogleAnalytics.framework; path = "Pods/../build/Debug-iphoneos/MPGoogleAnalytics/MPGoogleAnalytics.framework"; sourceTree = "<group>"; };
 		157E1E731D19C6E4003CC71E /* PaymentTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTracker.swift; sourceTree = "<group>"; };
+		15979D921D9ADC620074FA72 /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPGoogleAnalytics.framework; path = "../../Library/Developer/Xcode/DerivedData/MPTracker-giiwcinubtvdtlezzocqxtbnqfjk/Build/Products/Debug-iphonesimulator/MPGoogleAnalytics/MPGoogleAnalytics.framework"; sourceTree = "<group>"; };
+		15979D991D9AEF2E0074FA72 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		15A761CF1CE12974008F87A6 /* GATracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GATracker.swift; sourceTree = "<group>"; };
 		15A761D51CE21CD6008F87A6 /* PaymentTrackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTrackInfo.swift; sourceTree = "<group>"; };
 		15A761D71CE22184008F87A6 /* FlowTrackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowTrackInfo.swift; sourceTree = "<group>"; };
@@ -51,12 +51,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15979D9A1D9AEF2E0074FA72 /* libsqlite3.tbd in Frameworks */,
 				1577C05E1D9AD28A00A67EBE /* libz.1.1.3.tbd in Frameworks */,
 				156176291D99C24600712AB6 /* libsqlite3.0.tbd in Frameworks */,
-				1561762A1D99C25700712AB6 /* libGoogleAnalyticsServices.a in Frameworks */,
+				15979D981D9AEE7C0074FA72 /* libGoogleAnalyticsServices.a in Frameworks */,
 				0F9F8A041CE4C77F0053AABC /* CoreData.framework in Frameworks */,
+				15979D931D9ADC620074FA72 /* MPGoogleAnalytics.framework in Frameworks */,
 				0F9F8A021CE4C77A0053AABC /* SystemConfiguration.framework in Frameworks */,
-				15251F6D1D9AD79300018220 /* MPGoogleAnalytics.framework in Frameworks */,
 				D3E5095EAC94D30DB6F9F0EF /* Pods_MPTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,12 +133,11 @@
 		22D1A5F121D2278D70FADFF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				15251F6C1D9AD79300018220 /* MPGoogleAnalytics.framework */,
-				1577C05F1D9AD64E00A67EBE /* MPGoogleAnalytics.framework */,
-				156176181D998FEB00712AB6 /* MPGoogleAnalytics.framework */,
+				15979D991D9AEF2E0074FA72 /* libsqlite3.tbd */,
 				0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */,
 				0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */,
 				0F9F8A051CE4C7860053AABC /* libz.1.1.3.tbd */,
+				15979D921D9ADC620074FA72 /* MPGoogleAnalytics.framework */,
 				0F9F8A031CE4C77F0053AABC /* CoreData.framework */,
 				0F9F8A011CE4C77A0053AABC /* SystemConfiguration.framework */,
 				EBDB368AEDFE968C9FAF0988 /* Pods_MPTracker.framework */,
@@ -392,17 +392,13 @@
 					i386,
 				);
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos/MPGoogleAnalytics",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/MPGoogleAnalytics",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = MPTracker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -417,7 +413,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -432,17 +428,13 @@
 					i386,
 				);
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos/MPGoogleAnalytics",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/MPGoogleAnalytics",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = MPTracker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -456,7 +448,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
-				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
