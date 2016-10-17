@@ -3,10 +3,10 @@
 
 use_frameworks!
 
-pre_install do |pre_i|
-    def pre_i.verify_no_static_framework_transitive_dependencies; end
-end
+#pre_install do |pre_i|
+#    def pre_i.verify_no_static_framework_transitive_dependencies; end
+#end
 
 target 'MPTracker' do
-	pod 'MPGoogleAnalytics', '0.2.9'
+#	pod 'MPGoogleAnalytics', '0.2.9'
 end

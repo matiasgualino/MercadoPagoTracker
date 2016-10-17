@@ -5,7 +5,7 @@
 //  Created by Demian Tejo on 5/9/16.
 //  Copyright © 2016 Demian Tejo. All rights reserved.
 //
-
+/*
 import UIKit
 
 open class GATracker: NSObject {
@@ -64,3 +64,4 @@ open class GATracker: NSObject {
 		tracker?.send(builder as! [NSObject : AnyObject])
     }
 }
+  */

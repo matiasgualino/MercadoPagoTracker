@@ -13,6 +13,7 @@ public enum Flavor : String {
     case Flavor_3 = "3"
 }
 
+/*
 public enum GAKey : String {
     case MLA = "UA-46085787-6"
     case MLB = "UA-46090222-6"
@@ -41,7 +42,7 @@ public enum GAKey : String {
         }
     }
 }
-
+*/
 
 public protocol MPTrackerDelegate {
     
@@ -70,14 +71,14 @@ open class MPTracker {
 
     static var initialized : Bool = false
 
-    static var siteGAKey : GAKey?
+   // static var siteGAKey : GAKey?
     
     static var flavor : Flavor? = nil
     
     fileprivate class func initialize (_ mpDelegate : MPTrackerDelegate!){
         MPTracker.initialized = true
-        siteGAKey = GAKey.parseToGAKey(mpDelegate.siteId())
-        GATracker.sharedInstance.initialized(flowTrackInfo(mpDelegate), gaKey: siteGAKey)
+   //     siteGAKey = GAKey.parseToGAKey(mpDelegate.siteId())
+   //     GATracker.sharedInstance.initialized(flowTrackInfo(mpDelegate), gaKey: siteGAKey)
         MPTracker.flavor = mpDelegate.flavor()
     }
     
@@ -85,7 +86,7 @@ open class MPTracker {
         if (!initialized){
             self.initialize(mpDelegate)
         }
-        GATracker.sharedInstance.trackEvent(flavorText() + "/" + screen, action:action , label:result)
+    //    GATracker.sharedInstance.trackEvent(flavorText() + "/" + screen, action:action , label:result)
     }
     
     
@@ -93,7 +94,7 @@ open class MPTracker {
         if (!initialized){
             self.initialize(mpDelegate)
         }
-        GATracker.sharedInstance.trackPaymentEvent(flavorText() + "/" + screen, action: action, label: result, paymentInformer: paymentInformer)
+    //    GATracker.sharedInstance.trackPaymentEvent(flavorText() + "/" + screen, action: action, label: result, paymentInformer: paymentInformer)
        // PaymentTracker.trackToken(token, delegate: mpDelegate)
     }
     
@@ -117,7 +118,7 @@ open class MPTracker {
         if (!initialized){
             self.initialize(mpDelegate)
         }
-        GATracker.sharedInstance.trackScreen(flavorText() + "/" + screenName)
+   //     GATracker.sharedInstance.trackScreen(flavorText() + "/" + screenName)
     }
     
     open class func trackCreateToken(_ mpDelegate: MPTrackerDelegate!,token: String!){

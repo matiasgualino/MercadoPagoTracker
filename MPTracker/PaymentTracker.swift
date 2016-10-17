@@ -25,7 +25,7 @@ public class PaymentTracker: NSObject {
         let obj:[String:Any] = ["public_key": delegate.publicKey() , "token":token! ,"sdk_flavor":(delegate.flavor()?.rawValue)! ,"sdk_platform":"iOS" ,"sdk_type":"native" ,"sdk_version":delegate.sdkVersion() ,"sdk_framework":"" ,"site_id":delegate.siteId() ]
     
             
-            self.request(url: PaymentTracker.MP_TRACK_TOKEN_URL, params: nil, body: JSONHandler.jsonCoding(jsonArray: obj), method: "POST", headers: nil, success: { (jsonResult) -> Void in
+            self.request(url: PaymentTracker.MP_TRACK_TOKEN_URL, params: nil, body: JSONHandler.jsonCoding(jsonDictionary: obj), method: "POST", headers: nil, success: { (jsonResult) -> Void in
                 
             }) { (error) -> Void in
                 
@@ -39,7 +39,7 @@ public class PaymentTracker: NSObject {
         
         let obj:[String:Any] = ["public_key":delegate.publicKey() , "payment_id":paymentId!,"sdk_flavor":(delegate.flavor()?.rawValue)!,"sdk_platform":"iOS" ,"sdk_type":"native" ,"sdk_version":delegate.sdkVersion() ,"sdk_framework":"" ,"site_id" :delegate.siteId() ]
         
-        self.request(url: PaymentTracker.MP_TRACK_PAYMENTOFF_URL, params: nil, body: JSONHandler.jsonCoding(jsonArray: obj), method: "POST", headers: nil, success: { (jsonResult) -> Void in
+        self.request(url: PaymentTracker.MP_TRACK_PAYMENTOFF_URL, params: nil, body: JSONHandler.jsonCoding(jsonDictionary: obj), method: "POST", headers: nil, success: { (jsonResult) -> Void in
             
             }) { (error) -> Void in
                 

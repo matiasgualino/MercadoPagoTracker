@@ -11,10 +11,10 @@ import UIKit
 class JSONHandler: NSObject {
 
     
-    class func jsonCoding(jsonArray: [String:Any]) -> Any {
+    class func jsonCoding(jsonDictionary: [String:Any]) -> Any {
         var result : Any = ""
         do{
-            let jsonData = try JSONSerialization.data(withJSONObject: jsonArray, options: .prettyPrinted)
+            let jsonData = try JSONSerialization.data(withJSONObject: jsonDictionary, options: .prettyPrinted)
             let decoded = try JSONSerialization.jsonObject(with: jsonData, options: [])
             result = decoded
         }catch{

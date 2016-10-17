@@ -7,33 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F9F8A021CE4C77A0053AABC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A011CE4C77A0053AABC /* SystemConfiguration.framework */; };
-		0F9F8A041CE4C77F0053AABC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A031CE4C77F0053AABC /* CoreData.framework */; };
 		1561761D1D999E8B00712AB6 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561761C1D999E8B00712AB6 /* JSONHandler.swift */; };
-		156176291D99C24600712AB6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */; };
-		1577C05E1D9AD28A00A67EBE /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A051CE4C7860053AABC /* libz.1.1.3.tbd */; };
 		157E1E741D19C6E4003CC71E /* PaymentTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157E1E731D19C6E4003CC71E /* PaymentTracker.swift */; };
-		15979D931D9ADC620074FA72 /* MPGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15979D921D9ADC620074FA72 /* MPGoogleAnalytics.framework */; };
-		15979D981D9AEE7C0074FA72 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */; };
-		15979D9A1D9AEF2E0074FA72 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 15979D991D9AEF2E0074FA72 /* libsqlite3.tbd */; };
 		15A761D01CE12974008F87A6 /* GATracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761CF1CE12974008F87A6 /* GATracker.swift */; };
 		15A761D61CE21CD6008F87A6 /* PaymentTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761D51CE21CD6008F87A6 /* PaymentTrackInfo.swift */; };
 		15A761D81CE22184008F87A6 /* FlowTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A761D71CE22184008F87A6 /* FlowTrackInfo.swift */; };
 		15C527C01CE10A9E00D113F6 /* MPTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C527BF1CE10A9E00D113F6 /* MPTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C527C91CE10BAC00D113F6 /* MPTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C527C81CE10BAC00D113F6 /* MPTracker.swift */; };
-		D3E5095EAC94D30DB6F9F0EF /* Pods_MPTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDB368AEDFE968C9FAF0988 /* Pods_MPTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F9F8A011CE4C77A0053AABC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		0F9F8A031CE4C77F0053AABC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		0F9F8A051CE4C7860053AABC /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
-		0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Pods/MPGoogleAnalytics/MPGoogleAnalytics/Classes/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		1561761C1D999E8B00712AB6 /* JSONHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHandler.swift; sourceTree = "<group>"; };
 		157E1E731D19C6E4003CC71E /* PaymentTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTracker.swift; sourceTree = "<group>"; };
-		15979D921D9ADC620074FA72 /* MPGoogleAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPGoogleAnalytics.framework; path = "../../Library/Developer/Xcode/DerivedData/MPTracker-giiwcinubtvdtlezzocqxtbnqfjk/Build/Products/Debug-iphonesimulator/MPGoogleAnalytics/MPGoogleAnalytics.framework"; sourceTree = "<group>"; };
-		15979D991D9AEF2E0074FA72 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		15A761CF1CE12974008F87A6 /* GATracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GATracker.swift; sourceTree = "<group>"; };
 		15A761D51CE21CD6008F87A6 /* PaymentTrackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTrackInfo.swift; sourceTree = "<group>"; };
 		15A761D71CE22184008F87A6 /* FlowTrackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowTrackInfo.swift; sourceTree = "<group>"; };
@@ -43,7 +28,6 @@
 		15C527C81CE10BAC00D113F6 /* MPTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPTracker.swift; sourceTree = "<group>"; };
 		2A8DF8CDDD2DC697C5E9E42A /* Pods-MPTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPTracker/Pods-MPTracker.release.xcconfig"; sourceTree = "<group>"; };
 		7FB60926F017C0291D5FBA0E /* Pods-MPTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPTracker/Pods-MPTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		EBDB368AEDFE968C9FAF0988 /* Pods_MPTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,14 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15979D9A1D9AEF2E0074FA72 /* libsqlite3.tbd in Frameworks */,
-				1577C05E1D9AD28A00A67EBE /* libz.1.1.3.tbd in Frameworks */,
-				156176291D99C24600712AB6 /* libsqlite3.0.tbd in Frameworks */,
-				15979D981D9AEE7C0074FA72 /* libGoogleAnalyticsServices.a in Frameworks */,
-				0F9F8A041CE4C77F0053AABC /* CoreData.framework in Frameworks */,
-				15979D931D9ADC620074FA72 /* MPGoogleAnalytics.framework in Frameworks */,
-				0F9F8A021CE4C77A0053AABC /* SystemConfiguration.framework in Frameworks */,
-				D3E5095EAC94D30DB6F9F0EF /* Pods_MPTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,14 +109,6 @@
 		22D1A5F121D2278D70FADFF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				15979D991D9AEF2E0074FA72 /* libsqlite3.tbd */,
-				0F9F8A091CE4C7A00053AABC /* libGoogleAnalyticsServices.a */,
-				0F9F8A071CE4C78D0053AABC /* libsqlite3.0.tbd */,
-				0F9F8A051CE4C7860053AABC /* libz.1.1.3.tbd */,
-				15979D921D9ADC620074FA72 /* MPGoogleAnalytics.framework */,
-				0F9F8A031CE4C77F0053AABC /* CoreData.framework */,
-				0F9F8A011CE4C77A0053AABC /* SystemConfiguration.framework */,
-				EBDB368AEDFE968C9FAF0988 /* Pods_MPTracker.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,12 +140,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15C527C41CE10A9E00D113F6 /* Build configuration list for PBXNativeTarget "MPTracker" */;
 			buildPhases = (
-				E29B0D7A16BFA1843B0D43AB /* [CP] Check Pods Manifest.lock */,
 				15C527B71CE10A9E00D113F6 /* Sources */,
 				15C527B81CE10A9E00D113F6 /* Frameworks */,
 				15C527B91CE10A9E00D113F6 /* Headers */,
 				15C527BA1CE10A9E00D113F6 /* Resources */,
-				8B22F6B9EB643B94FD97FEBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,39 +195,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8B22F6B9EB643B94FD97FEBB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MPTracker/Pods-MPTracker-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E29B0D7A16BFA1843B0D43AB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15C527B71CE10A9E00D113F6 /* Sources */ = {

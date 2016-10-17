@@ -43,7 +43,7 @@ echo "=========================================="
 echo "2) Validate .podspec --allow-warnings"
 echo "=========================================="
 
-pod lib lint --allow-warnings --verbose
+pod lib lint --use-libraries --allow-warnings --verbose 
 STATUS=$?
 if [ $STATUS -ne 0 ]
 	then

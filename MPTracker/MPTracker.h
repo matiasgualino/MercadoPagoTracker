@@ -8,16 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import <MPGoogleAnalytics/GAI.h>
-#import <MPGoogleAnalytics/GAIDictionaryBuilder.h>
-#import <MPGoogleAnalytics/GAIEcommerceFields.h>
-#import <MPGoogleAnalytics/GAIEcommerceProduct.h>
-#import <MPGoogleAnalytics/GAIEcommerceProductAction.h>
-#import <MPGoogleAnalytics/GAIEcommercePromotion.h>
-#import <MPGoogleAnalytics/GAIFields.h>
-#import <MPGoogleAnalytics/GAILogger.h>
-#import <MPGoogleAnalytics/GAITrackedViewController.h>
-#import <MPGoogleAnalytics/GAITracker.h>
 
 //! Project version number for MPTracker.
 FOUNDATION_EXPORT double MPTrackerVersionNumber;
